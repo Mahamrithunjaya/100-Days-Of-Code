@@ -1,0 +1,11 @@
+*venv/
+*.idea
+*__pycache__/
+*.env
+*.vscode/
+*.DS_Store
+*Thumbs.db
+Day-29-PassWord Manager-Project/data.json
+Day-29-PassWord Manager-Project/appdata.json
+Spotify-PlayList-Using-The-Musical-Time-Machine/token.txt
+Day-69-Blog-Project-With-Users/static/ckeditor/lang

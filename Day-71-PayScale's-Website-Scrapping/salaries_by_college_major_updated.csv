@@ -1,0 +1,835 @@
+Major,Early Career Pay,Mid-Career Pay,% High Meaning
+Petroleum Engineering,92300.0,182000.0,69%
+Electrical Engineering & Computer Science (EECS),101200.0,152300.0,46%
+Applied Economics and Management,60900.0,139600.0,67%
+Operations Research,78400.0,139600.0,52%
+Public Accounting,60000.0,138800.0,49%
+Chemical Engineering/Materials Science & Engineering,74500.0,137800.0,60%
+Quantitative Business Analysis,67900.0,136200.0,55%
+Pharmacy,66300.0,133200.0,79%
+Aeronautics & Astronautics,74000.0,133100.0,60%
+Systems Engineering,74000.0,132900.0,54%
+Electrical Power Engineering,73100.0,130700.0,67%
+Actuarial Mathematics,61900.0,130500.0,50%
+Aerospace Studies,50300.0,130300.0,-
+Chemical Engineering,73500.0,128900.0,56%
+Actuarial Science,64700.0,128700.0,42%
+Information & Computer Science,70300.0,127600.0,60%
+Aeronautical Engineering,71600.0,125900.0,64%
+Operations & Information Systems Management,63800.0,125100.0,31%
+Political Economy,58200.0,125100.0,34%
+Marine Engineering,74700.0,125000.0,64%
+Computer Systems Engineering,74600.0,124800.0,49%
+Nuclear Engineering,73100.0,124500.0,63%
+Computer Science (CS) & Engineering,74000.0,124000.0,44%
+Corporate Accounting & Finance,61200.0,123600.0,57%
+Electrical & Computer Engineering (ECE),73900.0,123300.0,49%
+Computer Engineering (CE),74600.0,123200.0,46%
+Econometrics,60700.0,123000.0,30%
+Building Science,51100.0,122500.0,51%
+Mechatronics,70200.0,122300.0,47%
+Quantitative Economics,62000.0,121900.0,45%
+Foreign Affairs,52200.0,121800.0,40%
+Welding Engineering,76900.0,121800.0,44%
+Economics and Mathematics,65000.0,121400.0,33%
+Electrical Engineering (EE),71800.0,121400.0,55%
+Cognitive Science,64100.0,121100.0,41%
+Control Engineering,69900.0,121100.0,63%
+Geophysics,56900.0,120600.0,46%
+Pharmacology,55000.0,120600.0,71%
+Instrumentation & Control Engineering,69000.0,120500.0,-
+Computational & Applied Mathematics,69700.0,120100.0,43%
+Marine Transportation Management,67800.0,120100.0,47%
+Aerospace Engineering,70700.0,119800.0,57%
+Ocean Engineering (OE),65100.0,119700.0,51%
+Astronomy,54300.0,119600.0,39%
+Mechanical & Aeronautical Engineering,66900.0,119600.0,60%
+Chemical & Biomolecular Engineering,74000.0,118700.0,48%
+Computer Science (CS) & Mathematics,66800.0,118500.0,43%
+Bioscience,48400.0,118300.0,-
+Electrical & Electronics Engineering (EEE),71300.0,118100.0,55%
+Metallurgical Engineering,79100.0,117700.0,55%
+Aeronautical/Aerospace Engineering Technology,73400.0,117500.0,58%
+Materials Engineering,69100.0,117500.0,48%
+Accounting & Economics,61600.0,117400.0,43%
+Industrial & Systems Engineering,69900.0,117300.0,49%
+Optical Science & Engineering,67600.0,117100.0,65%
+Computer Science (CS),70700.0,116500.0,42%
+Biomedical Engineering (BME),67700.0,116300.0,72%
+Materials Science,62700.0,116200.0,-
+Electronics & Communications Engineering,61500.0,116100.0,55%
+Mining Engineering,75200.0,116100.0,70%
+Engineering,66500.0,116000.0,59%
+Applied Mathematics,64400.0,115500.0,39%
+Integrated Science & Technology,62500.0,115500.0,56%
+Petroleum Land Management,60600.0,115400.0,70%
+Bioengineering (BioE),67400.0,115000.0,67%
+Software Engineering,71100.0,114700.0,42%
+Operations Management & Information Systems,61900.0,114500.0,39%
+Statistics,63700.0,114400.0,42%
+Business Analysis,59200.0,114300.0,49%
+Computer & Information Science,60100.0,114300.0,55%
+Physics,62300.0,113800.0,49%
+Physics & Mathematics,61500.0,113600.0,47%
+Physics & Astronomy,54000.0,112900.0,43%
+Construction Engineering Management,64800.0,112700.0,55%
+Physician Assistant Studies,92900.0,112200.0,86%
+Mechanical Engineering (ME),67600.0,111500.0,51%
+Industrial Engineering (IE),68300.0,111400.0,45%
+Entrepreneurship & Marketing,48500.0,111100.0,49%
+Engineering Science,64700.0,111100.0,45%
+International Business & Finance,57700.0,111100.0,42%
+Materials Science & Engineering,69200.0,111100.0,47%
+Ceramic Engineering,66300.0,110900.0,45%
+International Economics,54600.0,110900.0,49%
+Information & Decision Sciences,60600.0,110800.0,37%
+Finance & Marketing,53400.0,110700.0,45%
+Telecommunications Engineering,59800.0,110600.0,43%
+Business & Economics,56800.0,110500.0,44%
+Mathematics & Statistics,59800.0,110000.0,42%
+Paper Science,72400.0,109900.0,38%
+Electronics Engineering,67600.0,109700.0,61%
+Engineering Physics,66700.0,109700.0,48%
+Industrial Distribution,60700.0,109700.0,49%
+Economics,58200.0,109400.0,41%
+Energy Management,64000.0,109200.0,66%
+Structural Engineering (SE),64300.0,109200.0,66%
+Managerial Economics,61500.0,109100.0,41%
+Automotive Engineering,60500.0,108700.0,-
+Business & Information Technology (IT),58200.0,108700.0,46%
+Japanese Language,50000.0,108700.0,41%
+Japanese Studies,49200.0,108500.0,22%
+Finance & Economics,59800.0,108100.0,42%
+Management Information Systems (MIS),61200.0,107800.0,43%
+Pharmaceutical Sciences (PS),50200.0,107700.0,69%
+Mechanical,66800.0,107600.0,55%
+Applied Physics,63800.0,107500.0,56%
+Information Management,61300.0,107500.0,42%
+Aeronautical Science & Engineering,54300.0,107100.0,63%
+Construction Project Management,57400.0,107000.0,59%
+Packaging Science,66800.0,107000.0,37%
+Industrial Engineering & Management,63200.0,106900.0,57%
+Asian Studies,44000.0,106400.0,39%
+Management Science,60500.0,106400.0,41%
+Accounting & Taxation,53300.0,105700.0,43%
+Manufacturing Engineering,65800.0,105600.0,48%
+Astrophysics,64100.0,105400.0,65%
+Engineering Management,65800.0,105200.0,55%
+Business Economics,54900.0,105100.0,42%
+Information Sciences and Technology,60700.0,105100.0,40%
+Information Systems Management,57600.0,104800.0,44%
+Finance & Investments,60500.0,104400.0,41%
+Environmental Health & Safety Management,58300.0,104200.0,64%
+Rhetoric,49400.0,104200.0,46%
+Strategic Management,62800.0,104200.0,45%
+Robotics & Automation,66500.0,104100.0,-
+Building Construction (BC),63600.0,104000.0,52%
+Accounting & Computer Systems,60200.0,103800.0,42%
+Construction Science,64000.0,103800.0,63%
+Polymer Science & Engineering,69200.0,103700.0,27%
+Computing,59800.0,103500.0,50%
+Information Security & Assurance,60600.0,103500.0,41%
+Civil Engineering (CE),61700.0,103500.0,65%
+Mathematics,59600.0,103400.0,45%
+Government,52200.0,103400.0,49%
+Biochemistry & Molecular Biology,50500.0,103300.0,70%
+Information Technology Management,59300.0,103300.0,48%
+Finance & Real Estate,58600.0,103200.0,45%
+Construction Engineering,64500.0,103100.0,57%
+Business Logistics & Transportation,54900.0,102900.0,48%
+Construction Management,59700.0,102900.0,58%
+Aeronautical Science,55300.0,102800.0,57%
+Computer Management Information Systems (CMIS),54300.0,102600.0,46%
+Software Applications & Programming,56400.0,102500.0,37%
+Financial Economics,60600.0,102300.0,44%
+Marketing & International Business,49700.0,102200.0,35%
+Informatics,66200.0,101900.0,41%
+Medicine,75500.0,101900.0,84%
+Civil & Environmental Engineering,61800.0,101800.0,67%
+Atmospheric Science,47300.0,101600.0,55%
+Environmental Engineering,59500.0,101300.0,64%
+European Studies,45200.0,101200.0,47%
+Nuclear Engineering Technology (NET),78200.0,101200.0,60%
+Industrial Management,55100.0,101000.0,55%
+Information Systems (IS),59900.0,101000.0,45%
+Sales & Business Marketing,52600.0,100800.0,49%
+Business Computer Information Systems (BCIS),60200.0,100700.0,36%
+Organic Chemistry,46000.0,100700.0,-
+Business Operations,60500.0,100600.0,-
+Business Computer Science,50200.0,100500.0,-
+Business Finance,54600.0,100300.0,43%
+Safety Science,58800.0,100300.0,-
+Plastics Engineering Technology,63800.0,100200.0,31%
+Business Information Systems,61700.0,100100.0,44%
+International Management,49300.0,99900.0,52%
+Finance,56800.0,99800.0,41%
+Agricultural Economics,53000.0,99700.0,59%
+Economics & Political Science,54200.0,99400.0,50%
+Interactive Media,50200.0,99400.0,32%
+Computer Science & Information Technology,63100.0,99100.0,49%
+Agricultural Engineering (AE),60400.0,99000.0,61%
+Consumer Economics,51200.0,99000.0,38%
+International Business,52100.0,98900.0,40%
+Chinese Language,51200.0,98700.0,47%
+Financial Planning,50400.0,98700.0,57%
+Corporate Finance,61000.0,98500.0,43%
+Architectural Engineering,62400.0,98400.0,58%
+Building Construction Management,58600.0,98000.0,59%
+Engineering Technology (ET),55300.0,97900.0,50%
+Network Engineering,57900.0,97900.0,46%
+Computer Information Systems (CIS),56900.0,97800.0,45%
+International Marketing,56200.0,97800.0,18%
+Psychobiology,45400.0,97800.0,64%
+Electrical Engineering Technology (EET),63100.0,97700.0,48%
+Computer Information Systems,55700.0,97700.0,43%
+Real Estate,56400.0,97700.0,38%
+Molecular Biology,50500.0,97700.0,70%
+Operations Management (OM),58000.0,97300.0,43%
+Cybersecurity,63000.0,97200.0,55%
+Manufacturing,54100.0,97200.0,56%
+Construction Trades,56300.0,97100.0,57%
+International Relations,49900.0,96800.0,49%
+Politics,50600.0,96800.0,53%
+Economics & Management,52700.0,96600.0,-
+Industrial Hygiene,55800.0,96200.0,55%
+Software Development,61000.0,96000.0,44%
+Telecommunications Management,49800.0,96000.0,46%
+Supply Chain Management,59000.0,95900.0,41%
+Mechanical Engineering Technology (MET),61200.0,95800.0,48%
+Accounting & Auditing,55400.0,95700.0,42%
+Network Security,57500.0,95700.0,47%
+Entrepreneurship & Leadership,52300.0,95600.0,46%
+Geological Engineering,59100.0,95600.0,57%
+Product Design,58600.0,95500.0,40%
+Electronics,57000.0,95400.0,61%
+Food Marketing,54500.0,95400.0,25%
+Safety Management,57400.0,95400.0,70%
+German Studies,47400.0,95300.0,43%
+Industrial & Labor Relations,63800.0,95300.0,51%
+Agricultural Economics & Business,51400.0,95200.0,55%
+Aviation Management,48400.0,95200.0,53%
+Biochemistry (BCH),47500.0,95100.0,60%
+Computer Science (CS) & Business,60800.0,95000.0,40%
+Construction Science & Management,61500.0,95000.0,68%
+Accounting & Finance,55800.0,94900.0,45%
+Comparative Literature,44600.0,94900.0,45%
+International & Comparative Politics,46100.0,94900.0,49%
+East Asian Studies,46900.0,94800.0,43%
+Logistics & Supply Chain Management,56200.0,94400.0,46%
+Russian & Eastern European Studies,50800.0,94400.0,-
+Occupational Health and Safety,57100.0,94300.0,68%
+Aviation,50000.0,94000.0,42%
+Manufacturing Technology,57100.0,94000.0,45%
+Physical Therapy,53500.0,93900.0,90%
+Labor Relations,48900.0,93900.0,39%
+Government & International Politics (GVIP),49800.0,93800.0,46%
+Information Technology (IT),56100.0,93800.0,45%
+City & Regional Planning,49700.0,93700.0,70%
+Information Science (IS),62600.0,93700.0,38%
+Business & Marketing,47800.0,93600.0,44%
+Agribusiness,48000.0,93400.0,53%
+Management Studies,43500.0,93400.0,73%
+Industrial Design (ID),52100.0,93100.0,41%
+Chemistry,49200.0,93000.0,55%
+Information Technology (IT) & Systems,58600.0,93000.0,47%
+Environmental Health & Safety,54500.0,93000.0,67%
+Electronics Engineering Technology (EET),61600.0,92900.0,53%
+Organizational Behavior,54000.0,92900.0,49%
+Analytical Chemistry,54800.0,92800.0,69%
+Computer Engineering Technology (CET),60100.0,92800.0,48%
+Food Science & Technology,50200.0,92800.0,49%
+Project Management,54100.0,92700.0,54%
+Technical & Scientific Communication,48900.0,92400.0,40%
+Finance & Banking,52600.0,92300.0,51%
+Hotel Administration,61500.0,92100.0,43%
+Mechanical Design,57700.0,92100.0,49%
+Biomedical Sciences,41200.0,92000.0,70%
+International Trade & Business,52300.0,91900.0,28%
+Commerce Economics,51200.0,91800.0,31%
+Latin American Studies,44300.0,91700.0,63%
+Structural Design & Construction Engineering Technology,66500.0,91700.0,46%
+Civil Engineering Technology (CET),55600.0,91700.0,62%
+Government & Politics,50000.0,91500.0,49%
+Aviation Flight Science (AFL),49900.0,91400.0,45%
+Business & Finance,52800.0,91400.0,49%
+Marketing,49200.0,91400.0,39%
+Applied Statistics,62000.0,91300.0,46%
+Biopsychology,50200.0,91300.0,73%
+Industrial Technology (IT),57800.0,91300.0,51%
+Manufacturing Engineering Technology,61500.0,91300.0,52%
+Music Production & Engineering,42100.0,91100.0,50%
+Networks & Telecommunications,52900.0,91100.0,57%
+Chemistry & Environmental Science,46000.0,91000.0,67%
+Microbiology & Immunology,51500.0,91000.0,68%
+Accounts,57000.0,90900.0,42%
+Risk Management,59600.0,90900.0,33%
+Environmental Science & Policy,47300.0,90700.0,60%
+Dairy Science,49500.0,90600.0,72%
+Sales & Marketing,48500.0,90600.0,44%
+Welding Engineering Technology,72000.0,90400.0,45%
+Industrial Psychology,47000.0,90200.0,49%
+Marketing & Management,47200.0,90200.0,44%
+Transportation & Logistics Management,52700.0,90200.0,47%
+Marketing Management,48300.0,90100.0,43%
+Watershed Hydrology & Management,45500.0,90100.0,49%
+Electromechanical Engineering,67100.0,90000.0,54%
+Transportation,59100.0,90000.0,50%
+Advertising Design,49300.0,89700.0,29%
+Management & Finance,52500.0,89700.0,53%
+Risk Management & Insurance,56300.0,89700.0,44%
+Geology,48200.0,89600.0,55%
+Information Assurance,55600.0,89500.0,58%
+Political Science,47900.0,89500.0,48%
+Philosophy,48700.0,89400.0,41%
+Radiation Therapy,65600.0,89400.0,91%
+Cell Biology,48200.0,89300.0,61%
+French Literature,44200.0,89300.0,50%
+Web Design & Development,50600.0,89300.0,46%
+Meteorology,44500.0,89300.0,60%
+Biological Sciences,46200.0,89200.0,65%
+Occupational Therapy (OT),55100.0,89200.0,90%
+Environmental Policy Analysis & Planning,47200.0,89100.0,62%
+Entrepreneurial Studies,46700.0,88900.0,35%
+Financial Accounting,53400.0,88900.0,51%
+Political Science/Public Law,43900.0,88900.0,61%
+Quality Management,53400.0,88900.0,64%
+Aeronautics,59100.0,88800.0,65%
+Applied Computer Science,62900.0,88800.0,48%
+Accounting,51700.0,88700.0,42%
+Broadcasting Technology,40000.0,88700.0,-
+Food Science,49900.0,88700.0,46%
+Marketing & Communications,46600.0,88700.0,43%
+Urban Planning,48100.0,88500.0,54%
+Manufacturing Management,60400.0,88500.0,49%
+Insurance,53000.0,88400.0,42%
+Business Data Analysis,60400.0,88300.0,38%
+Environmental Design,45400.0,88300.0,55%
+Advertising,44800.0,88200.0,33%
+Cinema Studies,45400.0,88200.0,32%
+Financial Management,51000.0,88200.0,51%
+Advertising & Marketing Communications,46000.0,88100.0,36%
+Operations & Supply Chain Management,57800.0,88100.0,44%
+Computer Information Management,46800.0,88000.0,62%
+Global & International Studies,45900.0,87800.0,49%
+Computing & Information Systems (CIS),50800.0,87800.0,42%
+Architecture,48300.0,87800.0,55%
+Environmental & Natural Resource Economics,49100.0,87600.0,60%
+Labor Studies,44100.0,87500.0,49%
+Aviation Technology,52600.0,87400.0,52%
+Social Ecology,46700.0,87400.0,60%
+Classics,45000.0,87300.0,39%
+Marketing Communication,43600.0,87300.0,40%
+Geographic Information Systems (GIS) & Spatial Analysis,51700.0,87200.0,56%
+Organizational Psychology,48300.0,87200.0,45%
+European History,49700.0,87100.0,50%
+Urban & Regional Planning,47500.0,87000.0,59%
+Real Estate Development,54400.0,86800.0,-
+Applied Technology,52900.0,86700.0,60%
+Entomology,44000.0,86700.0,-
+Architectural Engineering Technology,49900.0,86600.0,59%
+Public Affairs,49700.0,86600.0,53%
+Entrepreneurship,51400.0,86500.0,45%
+Business Management & Marketing,45800.0,86400.0,47%
+Digital Arts,43200.0,86300.0,32%
+Industrial Safety,53200.0,86200.0,78%
+Logistics,54800.0,86200.0,37%
+Hotel Management,44500.0,86100.0,44%
+Cell & Molecular Biology,48900.0,86000.0,66%
+Global Business Management,53200.0,86000.0,51%
+Technical Management,57800.0,85900.0,65%
+Computer & Network Administration,54100.0,85900.0,47%
+Police Science,53400.0,85800.0,-
+Pre-law,44700.0,85800.0,46%
+Business Communication,47600.0,85600.0,47%
+Microbiology,46200.0,85600.0,68%
+Professional Aeronautics,57700.0,85600.0,68%
+Advertising & Promotion,42400.0,85500.0,45%
+Network Systems Administration,53500.0,85400.0,50%
+Construction Technology,55500.0,85300.0,47%
+Electronic & Computer Technology,61300.0,85000.0,-
+Marketing & Advertising,47200.0,85000.0,53%
+Electronic Systems Technology (EST),61800.0,84900.0,-
+International Studies,47500.0,84800.0,51%
+Construction Engineering Technology,53000.0,84700.0,57%
+Applied Science,44100.0,84600.0,56%
+Accounting Information Systems,60000.0,84500.0,51%
+Environmental Health,48100.0,84500.0,72%
+Technology,53400.0,84500.0,64%
+Biosystems Engineering,62000.0,84200.0,75%
+Fashion Design,44800.0,84100.0,26%
+Agribusiness Management,47600.0,84000.0,46%
+German Language,48200.0,84000.0,41%
+Professional Pilot Education,59800.0,83900.0,-
+Textile Technology,51500.0,83900.0,31%
+Manufacturing Systems,71700.0,83600.0,-
+Diagnostic Medical Ultrasound,60800.0,83500.0,70%
+Marketing & Mass Communications,41800.0,83500.0,40%
+General Business,47600.0,83400.0,52%
+Computer Graphics Technology (CGT),46800.0,83400.0,40%
+Agricultural Systems Technology,54000.0,83300.0,58%
+Health Care,41700.0,83300.0,71%
+Hospital Administration,49600.0,83300.0,53%
+Personal Financial Planning,51200.0,83300.0,59%
+Business Technology Management,52900.0,83200.0,48%
+Health Policy & Administration,48300.0,83100.0,65%
+Math & Science,54400.0,82900.0,62%
+Architectural Design,46000.0,82800.0,59%
+Environmental Science,46500.0,82800.0,60%
+Advertising & Marketing,46300.0,82700.0,38%
+Animation,43100.0,82700.0,36%
+General Science,46900.0,82600.0,62%
+Biology & Chemistry,46700.0,82500.0,66%
+American Studies,49000.0,82400.0,50%
+Product Design Engineering,61500.0,82400.0,39%
+Aviation Maintenance Technology,49800.0,82300.0,58%
+Film Studies,42500.0,82300.0,40%
+Magazine Journalism,44500.0,82300.0,26%
+Web & Digital Media Development,48400.0,82200.0,34%
+Digital Media Design,45200.0,82000.0,36%
+English Literature,45400.0,82000.0,45%
+History & Politics,47200.0,82000.0,49%
+Human Biology,48400.0,82000.0,68%
+Business Management & Human Resources Management (HRM),44700.0,81900.0,58%
+Architectural Technology,44700.0,81900.0,56%
+Design,49400.0,81900.0,41%
+Philosophy & Religion,41800.0,81900.0,55%
+Physiology,46900.0,81900.0,62%
+Business Administration,49700.0,81700.0,50%
+French Studies,49500.0,81700.0,53%
+Land Surveying,48700.0,81700.0,56%
+Management,49000.0,81600.0,48%
+Geographic Information Systems (GIS),47100.0,81500.0,53%
+Interactive Media Design,51800.0,81500.0,40%
+Architectural Studies,43100.0,81400.0,42%
+Business Administration & Accounting,50300.0,81300.0,53%
+Industrial Arts,46500.0,81300.0,65%
+Textile Design,47400.0,81200.0,40%
+Textile & Apparel Studies,43800.0,81100.0,28%
+Accounting & Management,49700.0,81000.0,53%
+Nursing Science,63700.0,80900.0,84%
+Business Management,48800.0,80800.0,50%
+Linguistics,49300.0,80800.0,45%
+Agronomy,49100.0,80700.0,64%
+Corporate Communications,45300.0,80700.0,41%
+Neuroscience,47800.0,80700.0,59%
+Communication Studies & Journalism,42500.0,80600.0,49%
+Sociology & Organizational Studies,48200.0,80500.0,54%
+Nursing,61700.0,80400.0,84%
+Toxicology,43800.0,80300.0,-
+History,45300.0,80300.0,46%
+Agricultural Science,46900.0,80300.0,57%
+Biology,44500.0,80200.0,65%
+Crop Science,45200.0,80200.0,67%
+French Language,46600.0,80200.0,48%
+Environmental Studies,45900.0,80100.0,59%
+Management (MGT),44800.0,80100.0,57%
+Communication,45300.0,79900.0,45%
+General & Strategic Management,48900.0,79800.0,53%
+Merchandising Management,44200.0,79800.0,35%
+Dental Hygiene,70400.0,79600.0,79%
+Hydrology,45300.0,79600.0,-
+Global Business,53200.0,79500.0,37%
+Retail & Consumer Science,48500.0,79500.0,34%
+Literature,44400.0,79500.0,44%
+Emergency Management,49600.0,79400.0,78%
+Interpersonal & Organizational Communication,40300.0,79400.0,56%
+Nuclear Medicine,57800.0,79400.0,84%
+History & Political Science,48400.0,79300.0,51%
+Retail Merchandising,48000.0,79200.0,33%
+Agriculture,45300.0,79100.0,61%
+Environmental Management,47300.0,79100.0,61%
+Professional & Technical Writing,46000.0,79100.0,46%
+International Development Studies,45500.0,79000.0,64%
+Workforce Education & Development,57100.0,79000.0,74%
+Journalism & Mass Communication,43700.0,79000.0,45%
+Pre-Medicine,48400.0,78900.0,65%
+Bachelor in Science Nursing,61000.0,78800.0,81%
+Network Technology,54900.0,78800.0,57%
+Theatre & Drama Studies,41500.0,78600.0,49%
+Law,51900.0,78500.0,51%
+Law Enforcement,43800.0,78400.0,57%
+Printing Technology,43800.0,78400.0,-
+Public Relations & Communication,43600.0,78400.0,46%
+Foreign Languages,47800.0,78300.0,57%
+Interior Architecture,45100.0,78300.0,47%
+Marine Science,44000.0,78300.0,58%
+Public Management,47800.0,78300.0,60%
+Web Development,54100.0,78300.0,53%
+Journalism,43500.0,78200.0,45%
+Landscape Architecture,49000.0,78200.0,67%
+Environmental Geography,47100.0,78200.0,52%
+Bachelor of Science in Nursing,60700.0,78100.0,83%
+Digital Media,44500.0,78000.0,39%
+Welding Technology,46100.0,78000.0,-
+Nutrition Science,45900.0,77800.0,67%
+Accounting & Business,49400.0,77600.0,49%
+Diagnostic Medical Sonography,62200.0,77600.0,85%
+American History (United States),47800.0,77500.0,55%
+Strategic Communication,44600.0,77500.0,42%
+Public Relations (PR),43000.0,77400.0,43%
+Natural Sciences,41700.0,77300.0,51%
+International Affairs,49100.0,77200.0,53%
+Drama,43900.0,77200.0,46%
+Network Administration,46900.0,77200.0,55%
+Media Studies,48300.0,77100.0,36%
+Organizational Development,51600.0,77000.0,52%
+Writing,41800.0,77000.0,43%
+Integrated Marketing Communications,44600.0,76900.0,34%
+Crisis & Emergency Management,46600.0,76800.0,77%
+Organizational Communication,44000.0,76800.0,49%
+Retailing,48900.0,76800.0,27%
+Speech Communication,43900.0,76800.0,55%
+Allied Health,41800.0,76700.0,79%
+Environmental Biology,43000.0,76700.0,66%
+Nuclear Medicine Technology,58900.0,76700.0,81%
+Apparel & Textile Manufacture,45700.0,76600.0,36%
+Technology Management,53900.0,76500.0,45%
+Film Production,42700.0,76400.0,32%
+Security Management,44800.0,76400.0,-
+Acting,42200.0,76200.0,48%
+Broadcast & Cinematic Arts,41900.0,76200.0,41%
+Business Management & Administration,48600.0,76200.0,53%
+Marine Biology,40800.0,76200.0,61%
+Professional Studies,42100.0,76200.0,64%
+Romance Languages,50300.0,76200.0,54%
+Computer Animation,44500.0,76100.0,31%
+Cytotechnology,58100.0,76000.0,90%
+Broadcast Journalism,41100.0,76000.0,49%
+Geography,46900.0,76000.0,52%
+Journalism & Electronic Media,42100.0,75900.0,50%
+Automotive Technology,45800.0,75800.0,46%
+Interpersonal Communications,43100.0,75800.0,48%
+Law & Society,44400.0,75700.0,50%
+Agricultural Business,50300.0,75600.0,50%
+Ancient History,43900.0,75600.0,-
+Computer Aided Design (CAD),46500.0,75500.0,-
+Computer Art,41200.0,75500.0,30%
+Administration,43100.0,75400.0,56%
+Forestry,44700.0,75400.0,66%
+Urban Studies,48600.0,75300.0,56%
+Business Law,51100.0,75100.0,44%
+Radio/Television & Film Production,42800.0,75000.0,39%
+Digital Design,48200.0,74800.0,38%
+Forensic Science,43800.0,74800.0,62%
+Geosciences,46600.0,74800.0,63%
+Logistics Management,52800.0,74800.0,47%
+Ecology,43500.0,74700.0,53%
+English & History,43600.0,74700.0,48%
+English Language & Literature,43900.0,74700.0,44%
+American Sign Language Interpreting,42500.0,74600.0,85%
+Homeland Security,46800.0,74600.0,71%
+Zoology,40300.0,74600.0,67%
+English Language,42100.0,74500.0,47%
+Human Resources Management (HRM),45300.0,74400.0,55%
+Technical Writing,52000.0,74300.0,45%
+Automotive Technology & Service Management,45400.0,74300.0,36%
+Business Technology,49800.0,74100.0,45%
+Mass Communication,42700.0,74100.0,44%
+Health Sciences,42400.0,74000.0,70%
+Organizational Leadership,47400.0,74000.0,56%
+Musicology,38100.0,73900.0,-
+Spanish Language,44900.0,73600.0,53%
+Historic Preservation,41300.0,73500.0,52%
+Music Technology,42900.0,73500.0,38%
+Organizational Leadership & Supervision,46400.0,73500.0,50%
+Human Nutrition,45500.0,73400.0,84%
+Spanish Language Teacher Education,43900.0,73400.0,-
+Botany,40300.0,73300.0,72%
+Apparel Merchandising,45400.0,73200.0,35%
+Environmental Health Science,51400.0,73100.0,64%
+Media & Technology,41400.0,73100.0,48%
+Public Administration,44200.0,73100.0,58%
+Liberal Arts,42500.0,73000.0,53%
+Merchandising,50500.0,73000.0,30%
+Environmental Resource Management,45700.0,72900.0,62%
+Computer Aided Drafting & Design (CADD),46800.0,72800.0,54%
+Forestry Management,44300.0,72800.0,73%
+German Language & Literature,46100.0,72700.0,48%
+Electronics & Computer Technology,51700.0,72700.0,-
+Administrative Management,50100.0,72600.0,50%
+Cardiopulmonary Science,45800.0,72600.0,89%
+3D Animation,49400.0,72500.0,44%
+Ethnic Studies,44900.0,72300.0,62%
+Adult Education & Training,46200.0,72200.0,79%
+Health Administration,40700.0,72200.0,69%
+Agricultural Communication,42600.0,72100.0,51%
+Organizational Management,46900.0,72100.0,57%
+Multimedia,42800.0,72000.0,42%
+Communication Design,48700.0,71900.0,34%
+Radiologic Science,54900.0,71800.0,81%
+Exercise Physiology,41600.0,71700.0,78%
+Criminal Justice Administration,43700.0,71600.0,55%
+Natural Resource Management,43800.0,71500.0,60%
+Diagnostic Medical Imaging,57900.0,71400.0,74%
+Earth Science,48200.0,71400.0,50%
+Hotel & Restaurant Management,44600.0,71400.0,48%
+Radiology,51600.0,71300.0,84%
+Art History,44400.0,71200.0,46%
+Hospital Management,48500.0,71200.0,34%
+Retail Management,45700.0,71200.0,37%
+English & Psychology,41100.0,71100.0,47%
+Human Resources (HR),44800.0,71100.0,54%
+Management & Organization,53900.0,71100.0,68%
+Painting & Printmaking,32800.0,71100.0,41%
+Visual Effects & Motion Graphics,47400.0,71100.0,43%
+Medical Laboratory Technology,54100.0,71000.0,82%
+Fashion Merchandising,44100.0,71000.0,30%
+Multimedia & Web Design,47500.0,70900.0,34%
+Advertising & Graphic Design,44600.0,70800.0,37%
+Anthropology,43500.0,70800.0,46%
+Broadcast Communication,37900.0,70800.0,48%
+Communication Management,42500.0,70800.0,37%
+Health Care Administration,43600.0,70800.0,70%
+Natural Resources,44900.0,70700.0,66%
+Psychology,42000.0,70700.0,56%
+Visual Communications,43000.0,70700.0,37%
+Applied Behavior Analysis,36900.0,70600.0,-
+Travel Industry Management,51800.0,70600.0,-
+Humanities,43800.0,70500.0,48%
+Sociology & Anthropology,41900.0,70500.0,48%
+Communication Arts,40400.0,70500.0,41%
+Creative Writing,42800.0,70400.0,43%
+Anthropology & English,44900.0,70300.0,58%
+Modern Languages,48600.0,70300.0,52%
+Health Care Management,44000.0,70200.0,71%
+Health Teacher Education,35500.0,70200.0,52%
+Radiologic Technology,52100.0,70200.0,82%
+Health & Fitness,38000.0,70100.0,67%
+Animal Science & Management,42100.0,70000.0,54%
+Criminology,42400.0,70000.0,54%
+Hospitality Management,43600.0,70000.0,43%
+Art Administration,36800.0,70000.0,58%
+Human Relations,41100.0,70000.0,62%
+Health Information Management,46200.0,69900.0,69%
+Medical Laboratory Science,53000.0,69900.0,84%
+Liberal Studies,42300.0,69800.0,57%
+Secondary & Middle School Mathematics Teacher Education,43100.0,69800.0,71%
+Fashion Design & Marketing,42200.0,69700.0,39%
+Art & Design,42400.0,69600.0,39%
+Physical Anthropology,49300.0,69600.0,39%
+Sports Management,42900.0,69600.0,43%
+Life Sciences,51900.0,69400.0,59%
+Respiratory Care,52300.0,69200.0,84%
+Audio Engineering,45900.0,69100.0,37%
+Social & Criminal Justice,42300.0,69100.0,58%
+Child Psychology,37100.0,68900.0,64%
+Interior Design,42400.0,68900.0,50%
+Small Business Management,43900.0,68900.0,40%
+Turfgrass Management,47700.0,68900.0,49%
+Medical Technology,53300.0,68800.0,80%
+Religious Studies,41000.0,68800.0,57%
+Hotel & Restaurant Tourism,42500.0,68700.0,46%
+Sociology,43700.0,68600.0,54%
+Arts & Science,43900.0,68500.0,68%
+Secondary Education,42700.0,68500.0,62%
+Speech Pathology & Audiology,41500.0,68500.0,77%
+Theater,42400.0,68400.0,48%
+Archaeology,43900.0,68300.0,45%
+Illustration,42900.0,68300.0,36%
+Radiography,52700.0,68300.0,82%
+Media Arts,44000.0,68200.0,39%
+Clinical Laboratory Science,52400.0,68100.0,83%
+Graphics Technology & Management,38800.0,68100.0,36%
+Psychology & Social Behavior,44100.0,68100.0,56%
+Health Management,42000.0,68000.0,68%
+Media Communication,44300.0,68000.0,42%
+Mass Media,38100.0,67900.0,46%
+Nutrition,45100.0,67900.0,68%
+Performing Arts,42900.0,67800.0,52%
+SocialStudies,43700.0,67700.0,57%
+Italian Language,47800.0,67600.0,40%
+Social Studies,44100.0,67500.0,61%
+Commercial Photography,42000.0,67300.0,23%
+Radio & Television,40800.0,67200.0,40%
+Respiratory Therapy,52300.0,67200.0,82%
+Art Therapy,39200.0,67100.0,81%
+Biological Anthropology,41900.0,67100.0,44%
+Drafting & Design,48900.0,66800.0,59%
+Geomatics,49000.0,66800.0,65%
+Clinical Nutrition,47600.0,66700.0,73%
+Horticulture & Agronomy,46400.0,66700.0,58%
+Graphic Communication,44700.0,66600.0,29%
+Plant Sciences,45800.0,66600.0,60%
+Kinesiology,42100.0,66600.0,66%
+Fire Science,47200.0,66600.0,71%
+Fashion Marketing & Management,45200.0,66500.0,30%
+Music,41800.0,66500.0,54%
+Nutrition & Dietetics,48500.0,66500.0,72%
+Health,41900.0,66400.0,73%
+Legal Studies,44400.0,66400.0,49%
+Criminal Justice,40600.0,66300.0,56%
+Wildlife & Fisheries Science,38300.0,66300.0,59%
+Forensic Psychology,40800.0,66200.0,52%
+Graphic Design,42600.0,65800.0,37%
+Dramatic Art,38900.0,65700.0,-
+Hospitality & Tourism,41500.0,65600.0,41%
+Religion,41100.0,65600.0,62%
+Pre-Veterinary Medicine,37600.0,65600.0,72%
+Sports Medicine,45700.0,65400.0,74%
+Women's Studies,42700.0,65400.0,59%
+Fine Arts,40400.0,65300.0,45%
+Public Health (PH),43400.0,65300.0,70%
+Modern Language Spanish,41100.0,65200.0,51%
+Museum Studies,37600.0,65200.0,47%
+Business Leadership,47700.0,65100.0,46%
+Dietetics,48700.0,65100.0,75%
+Forensic Accounting,44200.0,65100.0,39%
+Landscape Management,49300.0,65100.0,-
+Speech-Language Pathology,41700.0,65100.0,70%
+Animal Science,39000.0,64900.0,64%
+Family & Consumer Science,40500.0,64900.0,57%
+Drawing & Painting,40600.0,64500.0,48%
+Music Industry,44400.0,64500.0,38%
+Technical Theatre,39100.0,64500.0,41%
+Foods & Nutrition,45000.0,64400.0,70%
+Physical Therapist Assistant Studies,49100.0,64400.0,85%
+Recreation Management,40300.0,64400.0,58%
+Interdisciplinary Studies (IS),42200.0,64200.0,56%
+Education,41800.0,64100.0,67%
+Applied Linguistics,44100.0,64000.0,40%
+Applied Sociology,40100.0,63800.0,57%
+Business & Healthcare Management,44700.0,63800.0,67%
+Music Composition,42300.0,63700.0,51%
+Physical Education & Exercise Science,41000.0,63700.0,78%
+Behavioral Science,40400.0,63500.0,61%
+Psychology & Sociology,40600.0,63400.0,52%
+General Studies,41200.0,63300.0,53%
+Culinary Arts & Culinary Management,36100.0,63200.0,51%
+Theatre Arts,40900.0,63200.0,49%
+Technology Teacher Education,46400.0,63100.0,47%
+Art,40600.0,63000.0,46%
+Textiles & Clothing,42900.0,63000.0,46%
+Video Production,42800.0,62800.0,38%
+Training and Development,50200.0,62500.0,-
+Theology,39300.0,62300.0,69%
+Restaurant & Food Service Management,41500.0,62300.0,45%
+Missions,41400.0,62200.0,-
+Event Management,39500.0,62100.0,42%
+Clinical Psychology,40900.0,62000.0,66%
+Developmental Psychology,31000.0,62000.0,-
+Physical Education Teaching,39600.0,62000.0,71%
+Theatre,39700.0,62000.0,48%
+Sports Administration,41200.0,61900.0,53%
+Drawing,36400.0,61800.0,35%
+Health & Exercise Science,40100.0,61800.0,67%
+Agricultural Teacher Education,51000.0,61700.0,53%
+Graphic Arts,41100.0,61600.0,39%
+New Media,44700.0,61600.0,32%
+Health Services Administration,40800.0,61500.0,64%
+Interior Design & Merchandising,40800.0,61400.0,38%
+Exercise Science,38900.0,61300.0,73%
+Electronic Media,43700.0,61200.0,38%
+Exercise & Sports Science,40400.0,61200.0,70%
+Psychiatry,54700.0,61200.0,-
+Supervision & Management,39400.0,61200.0,57%
+African American & African Studies,43600.0,61100.0,61%
+Culture Studies,44800.0,61000.0,41%
+Printmaking,36800.0,61000.0,41%
+Secondary English Teacher Education,40000.0,61000.0,67%
+Community Health Education,40200.0,60900.0,75%
+Culinary Arts,36700.0,60900.0,46%
+Wildlife Management,37800.0,60800.0,49%
+Psychology & Philosophy,45400.0,60800.0,40%
+Mortuary Science,40600.0,60700.0,81%
+Paralegal Studies,37700.0,60600.0,51%
+Health Studies,40600.0,60500.0,65%
+Social Psychology,44400.0,60500.0,55%
+Health Services Management,39300.0,60400.0,83%
+Emergency Medical Services (EMS),41600.0,60300.0,-
+Recording Arts,40500.0,60300.0,44%
+English Teacher Education,41300.0,60200.0,56%
+Social Science Teacher Education,42100.0,60200.0,-
+Social Studies Teacher Education,42400.0,60200.0,65%
+Music Teacher Education,39100.0,60000.0,66%
+Photography,41500.0,60000.0,38%
+Teaching English as a Second Language (ESL),41600.0,59900.0,75%
+Health & Physical Education Teaching,37000.0,59900.0,64%
+Human Development,40700.0,59700.0,65%
+Painting,38700.0,59700.0,44%
+Radio Broadcasting,43200.0,59700.0,-
+Recreational Studies,40500.0,59700.0,68%
+Speech Pathology,40500.0,59500.0,70%
+Recreation Administration,45000.0,59400.0,70%
+Dance,42600.0,59200.0,61%
+Recreation & Leisure Studies,38800.0,59100.0,63%
+Arts Management,37400.0,59000.0,44%
+University Studies,40000.0,59000.0,51%
+Photojournalism,39700.0,59000.0,66%
+Organizational Administration,42900.0,58900.0,-
+Health & Medical Services Administration,37900.0,58800.0,83%
+Tourism Management,40600.0,58800.0,38%
+Communicative Disorders,45200.0,58800.0,73%
+Sculpture,38400.0,58700.0,44%
+Consumer Affairs,49200.0,58600.0,48%
+Social Services,38000.0,58600.0,80%
+Community Health,42900.0,58500.0,69%
+Justice Studies,43300.0,58500.0,50%
+Landscape Design,48900.0,58500.0,65%
+Horticulture,41300.0,57800.0,60%
+Wildlife Biology,41000.0,57800.0,59%
+Gender Studies,43100.0,57700.0,55%
+Nonprofit Management,40400.0,57200.0,77%
+Athletic Training,39700.0,57000.0,76%
+Human Development & Family Studies,38300.0,56800.0,66%
+Biblical Studies,38700.0,56700.0,73%
+Health Promotion,40000.0,56700.0,69%
+Home Economics,38200.0,56500.0,65%
+Theatre Studies,43100.0,56500.0,51%
+Teaching,39600.0,56400.0,72%
+Counseling Psychology,39200.0,56200.0,65%
+Health & Human Performance,36200.0,56200.0,69%
+Library & Information Science,44700.0,56000.0,54%
+Art Teacher Education,37500.0,55900.0,62%
+Hospitality & The Culinary Arts,37400.0,55900.0,-
+Musical Theatre,41800.0,55900.0,46%
+Clinical Social Work (CSW),41700.0,55800.0,-
+Biblical Studies & Practical Ministries,35100.0,55700.0,78%
+Rehabilitation Services,34100.0,55700.0,79%
+Parks & Recreation Management,40600.0,55600.0,57%
+Pastoral Ministry,37300.0,55600.0,84%
+Legal Assistant Studies,36400.0,55500.0,39%
+Applied Management,43600.0,55400.0,-
+Social Welfare,44900.0,55300.0,71%
+Tourism & Travel,40600.0,55300.0,40%
+Vocal Performance,38900.0,55300.0,65%
+Audio Production,43700.0,54700.0,37%
+Bible Studies & Theology,38100.0,54700.0,66%
+Church Ministries,38100.0,54600.0,82%
+Family Studies,35900.0,54500.0,71%
+Special Education,39200.0,54500.0,78%
+Ceramics,39900.0,54400.0,48%
+Communication Sciences & Disorders,40900.0,54400.0,76%
+Family & Community Services,38500.0,54400.0,74%
+Speech & Hearing,41400.0,54300.0,79%
+Community Development,42100.0,53900.0,65%
+Health and Human Services,41500.0,53700.0,66%
+Office Management,37800.0,53400.0,50%
+Psychology & Human Services,35000.0,53300.0,78%
+History Teacher Education,45400.0,53000.0,45%
+Youth Ministry,35300.0,52300.0,82%
+Therapeutic Recreation,37700.0,52300.0,82%
+Community & Human Services,40500.0,52100.0,78%
+Christian Ministry,35500.0,52000.0,80%
+Elementary Education,37700.0,51600.0,71%
+Social Work (SW),36600.0,51600.0,77%
+Office Administration,38200.0,51200.0,61%
+Voice & Opera,32900.0,50800.0,61%
+Elementary Teaching,34400.0,50700.0,76%
+Human Services (HS),36600.0,50700.0,70%
+Baking & Pastry Arts,36000.0,50600.0,47%
+Human Services Management,43500.0,50500.0,-
+Counseling,37100.0,49300.0,78%
+Recreational Therapy,36400.0,49200.0,82%
+Child Development,35500.0,49100.0,76%
+Middle School Education,39000.0,48300.0,73%
+Educational Psychology,34600.0,47600.0,-
+Early Childhood & Elementary Education,36200.0,46500.0,78%
+Rehabilitation Counseling,38000.0,46100.0,-
+Addiction Studies,36300.0,44800.0,83%
+Outdoor Education,35800.0,44200.0,57%
+Child & Family Studies,34100.0,43600.0,74%
+Early Childhood Education,34100.0,43300.0,78%
+Mental Health,35200.0,42500.0,-
+Medical Assisting,35100.0,42300.0,-
+Addictions Counseling,38800.0,42200.0,-
+Metalsmithing,38300.0,38400.0,32%

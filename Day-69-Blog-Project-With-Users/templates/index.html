@@ -1,0 +1,85 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://images.unsplash.com/photo-1470092306007-055b6797ca72?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Subhajit's Blog</h1>
+            <span class="subheading">A collection of random musings.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        {% for post in all_posts %}
+        <div class="post-preview">
+          <a href="{{ url_for('show_post', post_id=post.id) }}">
+            <h2 class="post-title">
+              {{post.title}}
+            </h2>
+            <h3 class="post-subtitle">
+              {{post.subtitle}}
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">{{post.author.name}}</a>
+            on {{post.date}}
+
+          <!-- If user id is 1 then they can see the delete button -->
+            {% if current_user.id == 1: %}
+            <a href="#" data-toggle="modal" data-target="#modal{{ post.id }}">✘</a>
+            {% endif %}
+
+          </p>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal{{ post.id }}" role="dialog" aria-labelledby="BlogPostDelete" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Delete Post</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Are you sure you want to DELETE the post:
+                    <br> <strong>{{ post.id }}. {{ post.title }} - {{ post.subtitle }}</strong>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-primary" data-dismiss="modal">NO</button>
+                  <a href="{{url_for('delete_post', post_id=post.id) }}" type="button" class="btn btn-outline-danger">YES</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+        {% endfor %}
+
+
+        <!-- New Post -->
+        <!-- If user id is 1 then they can see the Create New Post button -->
+        {% if current_user.id == 1: %}
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{url_for('add_new_post')}}">Create New Post</a>
+          <a class="btn btn-danger float-left" href="{{url_for('show_users_list')}}">List of Users</a>
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+  <hr>
+
+{% include "footer.html" %}

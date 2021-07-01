@@ -1,0 +1,227 @@
+{
+	"info": {
+		"_postman_id": "07ee7707-5b4e-468e-b2e1-cea02a085d0b",
+		"name": "Cafe & Wifi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search Cafes By Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?loc=London Bridge",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "loc",
+							"value": "London Bridge"
+						},
+						{
+							"key": "wifi",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				},
+				"description": "The /search route will searchthe cafe database for a cafe that matches the location queried.\r\nUse the loc parameter to pass a location name."
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Cafes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"all"
+					]
+				},
+				"description": "The /all route will list all the cafe from the database."
+			},
+			"response": []
+		},
+		{
+			"name": "Get A Random Cafe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/random",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"random"
+					]
+				},
+				"description": "The /random route will show a random cafe from the cafe database."
+			},
+			"response": []
+		},
+		{
+			"name": "Add A New Cafe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "UMAX",
+							"type": "text"
+						},
+						{
+							"key": "map_url",
+							"value": "https://google.com",
+							"type": "text"
+						},
+						{
+							"key": "img_url",
+							"value": "https://google.com",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "LG Super",
+							"type": "text"
+						},
+						{
+							"key": "sockets",
+							"value": "False",
+							"type": "text"
+						},
+						{
+							"key": "toilet",
+							"value": "Yes",
+							"type": "text"
+						},
+						{
+							"key": "wifi",
+							"value": "No",
+							"type": "text"
+						},
+						{
+							"key": "calls",
+							"value": "True",
+							"type": "text"
+						},
+						{
+							"key": "seats",
+							"value": "0-15",
+							"type": "text"
+						},
+						{
+							"key": "coffee_price",
+							"value": "£20",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"add"
+					]
+				},
+				"description": "The /add route will give the user to add a new cafe in the database by providing the required keys."
+			},
+			"response": []
+		},
+		{
+			"name": "Update Cofee Price For Cafe",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/update-price/22?new_price=£10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"update-price",
+						"22"
+					],
+					"query": [
+						{
+							"key": "new_price",
+							"value": "£10"
+						}
+					]
+				},
+				"description": "The /update-price route will allow the user to update the price of coffee for cafe. You need to provide the coffee shop ID after the route(eg. /update-price/22).\nUse the parameter to pass the new price."
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Cafe By ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/report-closed/22?api-key=TopSecretAPIKey",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"report-closed",
+						"22"
+					],
+					"query": [
+						{
+							"key": "api-key",
+							"value": "TopSecretAPIKey"
+						}
+					]
+				},
+				"description": "The /report-closed route will be used to delete a Cafe from the database.\nYou will need to provide the ID of the cafe to delete as a route. You will also need to provide a valid API key for this operation allowed."
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,100 @@
+The Godfather --> Released Year: NA
+2) The Empire Strikes Back --> Released Year: NA
+3) The Dark Knight --> Released Year: 2008
+4) The Shawshank Redemption --> Released Year: 1994
+5) Pulp Fiction --> Released Year: 1994
+6) Goodfellas --> Released Year: 1990
+7) Raiders Of The Lost Ark --> Released Year: 1981
+8) Jaws --> Released Year: 1975
+9) Star Wars --> Released Year: 1977
+10) The Lord Of The Rings: The Fellowship Of The Ring --> Released Year: 2001
+11) Back To The Future --> Released Year: 1985
+12: The Godfather Part II --> Released Year: 1974
+13) Blade Runner --> Released Year: 1982
+14) Alien --> Released Year: 1979
+15) Aliens --> Released Year: 1986
+16) The Lord Of The Rings: The Return Of The King --> Released Year: 2003
+17) Fight Club --> Released Year: 1999
+18) Inception --> Released Year: 2010
+19) Jurassic Park --> Released Year: 1993
+20) Die Hard --> Released Year: 1988
+21) 2001: A Space Odyssey --> Released Year: 1968
+22) Apocalypse Now --> Released Year: 1979
+23) The Lord Of The Rings: The Two Towers --> Released Year: 2002
+24) The Matrix --> Released Year: 1999
+25) Terminator 2: Judgment Day --> Released Year: 1991
+26) Heat --> Released Year: 1995
+27) The Good, The Bad And The Ugly --> Released Year: 1966
+28) Casablanca --> Released Year: 1942
+29) The Big Lebowski --> Released Year: 1998
+30) Seven --> Released Year: 1995
+31) Taxi Driver --> Released Year: 1976
+32) The Usual Suspects --> Released Year: 1995
+33) Schindler's List --> Released Year: 1993
+34) Guardians Of The Galaxy --> Released Year: 2014
+35) The Shining --> Released Year: 1980
+36) The Departed --> Released Year: 2006
+37) The Thing --> Released Year: 1982
+38) Mad Max: Fury Road --> Released Year: 2015
+39) Saving Private Ryan --> Released Year: 1998
+40) 12 Angry Men --> Released Year: 1957
+41) Eternal Sunshine Of The Spotless Mind --> Released Year: 2004
+42) There Will Be Blood --> Released Year: 2007
+43) One Flew Over The Cuckoo's Nest --> Released Year: 1975
+44) Gladiator --> Released Year: 2000
+45) Drive --> Released Year: 2011
+46) Citizen Kane --> Released Year: 1941
+47) Interstellar --> Released Year: 2014
+48) The Silence Of The Lambs --> Released Year: 1991
+Trainspotting --> Released Year: NA
+50) Lawrence Of Arabia --> Released Year: 1962
+51) It's A Wonderful Life --> Released Year: 1946
+52) Once Upon A Time In The West --> Released Year: 1968
+53) Psycho --> Released Year: 1960
+54) Vertigo --> Released Year: 1958
+55) Pan's Labyrinth --> Released Year: 2006
+56) Reservoir Dogs --> Released Year: 1992
+57) Whiplash --> Released Year: 2014
+58) Inglourious Basterds --> Released Year: 2009
+59) E.T. – The Extra Terrestrial --> Released Year: 1982
+60) American Beauty --> Released Year: 1999
+61) Forrest Gump --> Released Year: 1994
+62) La La Land --> Released Year: 2016
+63) Donnie Darko --> Released Year: 2001
+64) L.A. Confidential --> Released Year: 1997
+65) Avengers Assemble --> Released Year: 2012
+66) Return Of The Jedi --> Released Year: 1983
+67) Memento --> Released Year: 2000
+68) Ghostbusters --> Released Year: 1984
+69) Singin' In The Rain --> Released Year: 1952
+70) The Lion King --> Released Year: 1994
+71) Hot Fuzz --> Released Year: 2007
+72) Rear Window --> Released Year: 1954
+73) Seven Samurai --> Released Year: 1954
+74) Mulholland Dr. --> Released Year: 2001
+75) Fargo --> Released Year: 1996
+76) A Clockwork Orange --> Released Year: 1971
+77) Toy Story --> Released Year: 1995
+78) Oldboy --> Released Year: 2003
+79) Captain America: Civil War --> Released Year: 2016
+15) Spirited Away --> Released Year: NA
+81) The Social Network --> Released Year: 2010
+82) Some Like It Hot --> Released Year: 1959
+83) True Romance --> Released Year: 1993
+84) Rocky --> Released Year: 1976
+85) Léon --> Released Year: 1994
+86) Indiana Jones And The Last Crusade --> Released Year: 1989
+87) Predator --> Released Year: 1987
+88) The Exorcist --> Released Year: 1973
+89) Shaun Of The Dead --> Released Year: 2004
+90) No Country For Old Men --> Released Year: 2007
+91) The Prestige --> Released Year: 2006
+92) The Terminator --> Released Year: 1984
+2) The Princess Bride --> Released Year: NA
+94) Lost In Translation --> Released Year: 2003
+95) Arrival --> Released Year: 2016
+96) Good Will Hunting --> Released Year: 1997
+97) Titanic --> Released Year: 1997
+98) Amelie --> Released Year: 2001
+99) Raging Bull --> Released Year: 1980
+100) Stand By Me --> Released Year: 1986

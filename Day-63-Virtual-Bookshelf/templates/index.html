@@ -1,0 +1,48 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}Virtual Bookshelf{% endblock %}
+
+{% block styles %}
+{{ super() }}
+  <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <h1 class="text-center">My Library</h1> <hr>
+                    {% if not books: %}
+                        <br>
+                        <h3>Library is Empty. Add Some Book.</h3> <br>
+                    {% else: %}
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-headColor">Book</th>
+                                <th scope="col" class="text-headColor">Author</th>
+                                <th scope="col" class="text-headColor">Rating</th>
+                                <th scope="col" class="text-headColor">Edit Rating</th>
+                                <th scope="col" class="text-headColor">Delete Record</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {% for book in books: %}
+                            <tr>
+                                <th scope="row">{{ book.title }}</th>
+                                <td>{{ book.author }}</td>
+                                <td>{{ book.rating }} / 10</td>
+                                <td><a href="{{ url_for('edit', id=book.id) }}">✏️</a></td>
+                                <td><a href="{{ url_for('delete', id=book.id) }}">🗑️</a></td>
+                            </tr>
+                        </tbody>
+                            {% endfor %}
+                    {% endif %}
+                    </table>
+                <a type="button" class="btn btn-warning btn-lg" href="{{ url_for('add') }} ">Add New Book</a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

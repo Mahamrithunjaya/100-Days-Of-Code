@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #e4fbff;
+  position: relative;
+  padding-top: 80px;
+}
+
+.middle-container {
+  padding: 100px 0 0;
+}
+
+.bottom-container {
+  background-color: #3edbf0;
+  padding: 5px 0 20px;
+}
+
+h1 {
+  color: #00adb5;
+  font-size: 4.375rem;
+  margin: 50px auto 5px auto;
+  font-family: 'Satisfy', cursive;
+}
+
+h2 {
+  color: #00adb5;
+  font-size: 2.5rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+span {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 2;
+}
+
+.division-spacing {
+  border-style: double;
+  border-color: #e1e5ea;
+  border-width: 6px;
+  margin: 30px auto;
+}
+
+a {
+  margin: 10px 10px;
+}
+
+.span2 {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 350px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.ending-line {
+  font-size: 22px;
+  color: black;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.prog {
+  font-weight: normal;
+}
+
+.get-in-touch {
+  margin-bottom: 0;
+}
+
+.spacing {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 30px auto;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 70px;
+}
+
+.skill-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.skill-2 {
+  width: 24%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-3 {
+  width: 22%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-4 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-5 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 20px;
+}
+
+.footer-image:hover {
+  box-shadow: 5px 5px 2px 1px rgba(0, 140, 186, 0.5);
+}
+.footer-link {
+  position: relative;
+  display: inline-block;
+}
+
+.footer-link .tooltiptext {
+  visibility: hidden;
+  width: 90px;
+  background-color: #1cc5dc;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 100%;
+  margin-left: -60px;
+}
+
+.footer-link:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*################################################ ID SELECTORS #########################################*/
+
+#name-h1 {
+  color: #00adb5;
+  font-size: 5.625rem;
+  margin: 10px auto 0 auto;
+}
+
+#welcome-msg {
+  color: #00adb5;
+  font-size: 20px;
+}

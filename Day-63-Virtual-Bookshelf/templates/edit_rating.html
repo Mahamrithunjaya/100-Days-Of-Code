@@ -1,0 +1,25 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Virtual Bookshelf{% endblock %}
+
+{% block styles %}
+{{ super() }}
+  <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <br>
+                <h2>Book Name: {{ book.title }}</h2>
+                <h2>Current Rating: {{ book.rating }}</h2> <br><hr>
+                <input hidden="hidden" name="id" value="{{ book.id }}">
+                {{ wtf.quick_form(form, novalidate=True) }}
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
