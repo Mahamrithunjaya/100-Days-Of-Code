@@ -11,7 +11,7 @@ ___
 ### `day003`: [Treasure Island](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20003%20-%20Exercise)
 ### `day004`: [Rock Paper Scissors](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20004%20-%20Exercise)
 ### `day005`: [Password Generator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20005%20-%20Exercise)
-### `day006`: [Reeborg Maze](https://github.com/pullynnhah/100days/blob/master/days001-010/day006/reeborg/Project.ipynb)
+### `day006`: [Reeborg Maze]()
 ### `day007`: [Hangman](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20007%20-%20Exercise)
 ### `day008`: [Caesar Cipher](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20008%20-%20Exercise)
 ### `day009`: [Secret Auction](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20009%20-%20Exercise)
