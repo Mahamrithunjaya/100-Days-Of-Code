@@ -37,8 +37,8 @@ ___
 ### `day023`: [Crossing Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2023%20-%20Turtle-Crossing-Project)
 ### `day024`: [Mail Merge](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2024%20-%20Mail-Merge-Project-Start)
 ### `day025`: [Game Project]
-#### - [INDIA States Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2025%20-%20India-States_Game)
-#### - [U.S. States Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2025%20-%20US-states-game)
+#### ----------------- [INDIA States Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2025%20-%20India-States_Game)
+#### ----------------- [U.S. States Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2025%20-%20US-states-game)
 ### `day026`: [Nato Phonetic Alphabet](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day-26-Exercise)
 ### `day027`: [Miles to Km Converter](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day-27-Exercise)
 ### `day028`: [Pomodoro](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day-28-Pomodoro-App)
@@ -53,8 +53,8 @@ ___
 ### `day034`: [Quizzler](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-34-GUI-Quiz-App)
 ### `day035`: [Rain Alert](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-35-Weather_Alert_App)
 ### `day036`: [Stock Alert PROJECT]
-#### - [GLOBAL Stock](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-36-Stock-Trading-News-Alert-Project)
-#### - [NSE(INDIA) Stock](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-36-Stock-Trading-App-(NSE))
+#### --------------- [GLOBAL Stock](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-36-Stock-Trading-News-Alert-Project)
+#### --------------- [NSE(INDIA) Stock](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-36-Stock-Trading-App-(NSE))
 ### `day037`: [Pixela Reading Tracker](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-37-Habit-Tracking-App-Project)
 - Is not exactly a project.
 ### `day038`: [Workout Tracker](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_031-040/Day-38-Workout-Tracking-Project)
@@ -65,10 +65,10 @@ ___
 ## days041-050
 ### `day041`: Basics
 ### `day042`: [Basic Personal Website](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_041-050/Day-42-HTML%20-%20Personal%20Site)
-#### - [Basic Personal Website](https://mahamrithunjaya.github.io/cv-Using-Basics-Of-HTML-/)
+#### --------------- [Basic Personal Website](https://mahamrithunjaya.github.io/cv-Using-Basics-Of-HTML-/)
 ### `day043`: Basic
 ### `day044`: [Personal Website 2](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_041-050/Day-44-CSS%20-%20My%20Site)
-#### - [Personal Website](https://mahamrithunjaya.github.io/CV/)
+#### --------------- [Personal Website](https://mahamrithunjaya.github.io/CV/)
 ### `day045`: [Top 100 Movies](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_041-050/Day-45-Web-Scraping-with-Beautiful-Soup)
 ### `day046`: [Spotify Time Machine](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_041-050/Day-46-Spotify-PlayList-Using-The-Musical-Time-Machine)
 ### `day047`: [Amazon Price Tracker](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_041-050/Day-47-Amazon-Price-Tracker)
@@ -101,13 +101,13 @@ ___
 ### `day068`: [Flask Authentication](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_061-070/Day-68-Flask-Authentication)
 ### `day069`: [Final Blog](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_061-070/Day-69-Blog-Project-With-Users)
 ### `day070`: No Project Today
-#### - [BLOG SITE](https://cypher-subhajit-saha-blogs.herokuapp.com/)
+#### --------------- [BLOG SITE](https://cypher-subhajit-saha-blogs.herokuapp.com/)
 ___
 
 ## days071-08
 - All data science notebooks
 ### `day071`: [College Major × Your Salary](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_071-080/Day-71-Data-Exploration-With-PANDAS)
-#### - [PayScale's Website Scrapping](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_071-080/Day-71-PayScale's-Website-Scrapping)
+#### --------------- [PayScale's Website Scrapping](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_071-080/Day-71-PayScale's-Website-Scrapping)
 ### `day072`: [Programming Languages Popularity](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_071-080/Day-72-Data-Visualization-With-MATPOLIB)
 ### `day073`: [Analyse LEGO Dataset](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_071-080/Day-73-Analyze-the-LEGO-Data-Set)
 ### `day074`: [Google Trends and Data Visualisation](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_071-080/Day-74-Google_Trends_And_Data_Visualization)
@@ -123,7 +123,7 @@ ___
 ### `day081`: [💻]()
 ### `day082`: [💻]()
 #### - [💻]()
-### `day083`: [💻]]()
+### `day083`: [💻]()
 ### `day084`: [💻]()
 ### `day085`: [💻]()
 ### `day086`: [💻]()
