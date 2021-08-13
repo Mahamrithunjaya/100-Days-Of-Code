@@ -6,16 +6,16 @@ I am Currently learning Python(more specifically doing revision of PYTHON).
 ___
 
 ## days001-010
-### `day001`: [Band Name Generator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20001%20-%20Exercise)
-### `day002`: [Tip Calculator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20002%20-%20Exercise)
-### `day003`: [Treasure Island](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20003%20-%20Exercise)
-### `day004`: [Rock Paper Scissors](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20004%20-%20Exercise)
-### `day005`: [Password Generator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20005%20-%20Exercise)
+### `day001`: [Band Name Generator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20001)
+### `day002`: [Tip Calculator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20002)
+### `day003`: [Treasure Island](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20003)
+### `day004`: [Rock Paper Scissors](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20004)
+### `day005`: [Password Generator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20005)
 ### `day006`: [Reeborg Maze]()
-### `day007`: [Hangman](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20007%20-%20Exercise)
-### `day008`: [Caesar Cipher](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20008%20-%20Exercise)
-### `day009`: [Secret Auction](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20009%20-%20Exercise)
-### `day010`: [Calculator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20010%20-%20Exercise)
+### `day007`: [Hangman](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20007)
+### `day008`: [Caesar Cipher](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20008)
+### `day009`: [Secret Auction](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20009)
+### `day010`: [Calculator](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_001-010/Day%20-%20010)
 ___
 
 ## days011-020
