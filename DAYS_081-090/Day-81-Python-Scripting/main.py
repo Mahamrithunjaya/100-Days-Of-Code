@@ -54,6 +54,8 @@ MORSE_DICT = {
 
 
 def text_to_morse(message):
+    """This takes the text from the user as input and then converts it into respective Morse Code.
+    It returns the MORSE CODE."""
     morse_code = ''
 
     for letter in message.upper():
@@ -63,6 +65,8 @@ def text_to_morse(message):
 
 
 def morse_to_text(morse_text: str):
+    """This takes the Morse Code from the user as input and converts it into the respective text form.
+    It returns the TEXT."""
     output_text = ''
 
     try:
@@ -77,6 +81,9 @@ def morse_to_text(morse_text: str):
 
 
 def morse_sound(morse):
+    """ Takes the morse code and converts to short sound beeps. The duration of a dash is three times the duration of
+    a dot. The letters of a word are separated by a space of duration equal to three dots, and words are separated by
+    a space equal to seven dots. """
     for word in morse.split('/'):
         for char in word:
             if char == ".":
@@ -109,7 +116,7 @@ def main():
   |_|  |_|\___/|_|_\|___/___|  \___\___/|___/|___|   |_| |_|_\/_/ \_\_|\_|___/____/_/ \_\_| \___/|_|_\ 
                                                                                                                                                                                                                                                                                                                                                     
     ''')
-    print("\nNOTE:- To give space between two words here '/' is used. ")
+    print("\nNOTE:- To give space between two words(in case of MORSE CODE) here '/' is used. ")
     choice = input('\n\nPlease Select any one Option: \n(a) TEXT --> MORSE CODE\n(b) MORSE CODE --> TEXT\n ---> ')
     if choice == 'a':
         text = input('Enter the Text you would like to be converted into Morse Code: \n')
