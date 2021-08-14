@@ -128,12 +128,13 @@ def main():
         morse_sound(output)
     elif choice == 'b':
         morse_code = input("Enter the Morse Code that you would like to be converted into Text: \n")
+        morse_cd = morse_code
         output = morse_to_text(morse_code)
         print(f"\nHere is the TEXT version or your message:\n"
               f"[Turn up the volume to hear the MORSE CODE SOUND]\n\n"
               f"{output}")
         time.sleep(2.5)
-        morse_sound(morse_code)
+        morse_sound(morse_cd)
     else:
         print("\nInvalid Choice Selected."
               "\nEnter only 'a' or 'b' ")
