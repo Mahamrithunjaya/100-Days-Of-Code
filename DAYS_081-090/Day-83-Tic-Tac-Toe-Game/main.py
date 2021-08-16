@@ -12,15 +12,19 @@ def clear():
 
 
 def rules():
-    print("\n This game is based on matrix positions.\n\n So you need to give positions as 'ij'.")
+    print("\n This game is based on matrix positions.\n\n So you need to give positions as 'ij'.\n Where 'i' = 'row' "
+          "and 'j' = 'column'")
 
     print("\n\n")
 
-    print("         X | O | X    11 | 12 | 13")
-    print("         - - - - - -  - - - - - - - -")
-    print("         X | O | X    21 | 22 | 23 ")
-    print("         - - - - - -  - - - - - - - -")
-    print("         X | O | X    31 | 32 | 33 \n\n")
+    print("         ----------      -----------------------")
+    print("         | BOARD  |     | POSITIONS TO BE ENTER | ")
+    print("         ----------      -----------------------\n")
+    print("         X | O | X          11 | 12 | 13")
+    print("         - - - - -      - - - - - - - - - - -")
+    print("         X | O | X          21 | 22 | 23 ")
+    print("         - - - - -      - - - - - - - - - - -")
+    print("         X | O | X          31 | 32 | 33 \n\n")
 
     time.sleep(5.5)
     print("\n    About to Start....")
@@ -86,6 +90,7 @@ def main(turn):
                 print("\n   GAME OVER \n\n")
                 if winner != "DRAW":
                     print(f" Player '{winner}' WON THE GAME!!")
+                    time.sleep(5)
                 else:
                     print(" IT'S A DRAW!!")
                 break
@@ -96,17 +101,19 @@ def main(turn):
 
 def symbol_selection():
     while True:
-        symbol_choice = input("\n\n Please select any option of the symbol: \n (a) 'X' \n (b) 'O' ")
+        symbol_choice = input("\n\n Please select any option of the symbol: \n (a) 'X' \n (b) 'O' \n ")
         if symbol_choice == "a":
             symbol_of_player = "X"
-            print("You have selected 'X' symbol for the game.\n Your opponent will have 'O' symbol.")
+            print(" You have selected 'X' symbol for the game.\n Your opponent will have 'O' symbol.")
             return symbol_of_player
         elif symbol_choice == "b":
             symbol_of_player = "O"
-            print("You have selected 'O' symbol for the game.\n Your opponent will have 'X' symbol.")
+            print(" You have selected 'O' symbol for the game.\n Your opponent will have 'X' symbol.")
             return symbol_of_player
         else:
-            print("Invalid Selection!! Select any one 'a' or 'b'")
+            print(" Invalid Selection!! Select any one 'a' or 'b'")
+            time.sleep(1)
+            clear()
 
 
 if __name__ == "__main__":

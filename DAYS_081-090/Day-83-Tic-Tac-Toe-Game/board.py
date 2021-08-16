@@ -4,7 +4,7 @@ class Board:
         self.turn = turn
 
     def draw_board(self):
-        print(f"{self.turn}'s Turn")
+        print(f" {self.turn}'s Turn")
         print(f"""
                 {self.board[0][0]} | {self.board[0][1]} | {self.board[0][2]}
                 --|---|-- 
