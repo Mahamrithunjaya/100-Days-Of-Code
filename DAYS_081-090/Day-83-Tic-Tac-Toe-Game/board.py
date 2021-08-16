@@ -16,18 +16,22 @@ class Board:
     def mark(self, loc):
         """This will plot the location in the board according to the user's input"""
         if len(loc) == 2:
-            row = int(loc[0]) - 1
-            column = int(loc[1]) - 1
-            cell = self.board[row][column]
+            try:
+                row = int(loc[0]) - 1
+                column = int(loc[1]) - 1
+                cell = self.board[row][column]
 
-            if cell == " ":
-                self.board[row][column] = self.turn
-                return True
-            else:
-                print("\n Cell is already taken!")
+                if cell == " ":
+                    self.board[row][column] = self.turn
+                    return True
+                else:
+                    print("\n Cell is already taken!")
+                    return False
+            except:
+                print(f"\n[☞] Something Went Wrong...!!, You entered ➔ {loc}\n Try Again!!!")
                 return False
         else:
-            print("\n Invalid Co-Ordinates!!, Try Again...")
+            print("\n[☞] Invalid Co-Ordinates!!, Try Again...")
             return False
 
     def check_player_x(self):

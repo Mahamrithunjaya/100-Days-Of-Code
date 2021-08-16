@@ -1,5 +1,14 @@
 from art import logo1, logo2
 from board import Board
+import time
+import os
+
+
+def clear():
+    if os.name == "nt":
+        os.system("cls")
+    else:
+        os.system("clear")
 
 
 def main():
@@ -15,20 +24,27 @@ def main():
 
         if placed:
             if not game_over:
+                clear()
                 board.switch_turn()
             else:
+                clear()
                 board.draw_board()
-                print("\n Game Over")
+                print("\n   GAME OVER \n")
                 if winner != "DRAW":
-                    print(f"{winner} won!!")
+                    print(f" Player '{winner}' WON THE GAME!!")
                 else:
-                    print("It's a DRAW!!")
+                    print(" IT'S A DRAW!!")
                 break
+        else:
+            time.sleep(1)
+            clear()
 
 
 if __name__ == "__main__":
     print(logo1)
     print(logo2)
-    print("\n Enter to start")
+    print("\n[☆] PRESS ENTER TO VIEW THE RULES TO PLAY..............")
     input()
+    clear()
+
     main()
