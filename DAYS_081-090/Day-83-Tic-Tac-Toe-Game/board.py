@@ -98,6 +98,14 @@ class Board:
                     draw = False
         return draw
 
+    def computer_player(self, pos):
+        row = int(pos[0]) - 1
+        column = int(pos[1]) - 1
+        cell = self.board[row][column]
+
+        if cell == " ":
+            self.board[row][column] = self.turn
+
     def switch_turn(self):
         """This will switch the symbol for the player."""
         if self.turn == "X":
