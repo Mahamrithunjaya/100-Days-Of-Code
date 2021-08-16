@@ -6,22 +6,23 @@ class Board:
     def draw_board(self):
         print(f"{self.turn}'s Turn")
         print(f"""
-{self.board[0][0]} | {self.board[0][1]} | {self.board[0][2]}
-----|----|----
-{self.board[1][0]} | {self.board[1][1]} | {self.board[1][2]}
-----|----|----
-{self.board[2][0]} | {self.board[2][1]} | {self.board[2][2]}
-""")
+                {self.board[0][0]} | {self.board[0][1]} | {self.board[0][2]}
+                ---|---|---
+                {self.board[1][0]} | {self.board[1][1]} | {self.board[1][2]}
+                ---|---|---
+                {self.board[2][0]} | {self.board[2][1]} | {self.board[2][2]}
+        """)
 
     def mark(self, loc):
         """This will plot the location in the board according to the user's input"""
         if len(loc) == 2:
-            row = int(loc[0] - 1)
-            column = int(loc[1] - 1)
+            row = int(loc[0]) - 1
+            column = int(loc[1]) - 1
             cell = self.board[row][column]
 
             if cell == " ":
                 self.board[row][column] = self.turn
+                return True
             else:
                 print("\n Cell is already taken!")
                 return False
