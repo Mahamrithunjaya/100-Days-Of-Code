@@ -1,16 +1,16 @@
 class Board:
     def __init__(self):
         self.board = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
-        self.turn = "❌"
+        self.turn = "X"
 
     def draw_board(self):
         print(f"{self.turn}'s Turn")
         print(f"""
-                {self.board[0][0]} | {self.board[0][1]} | {self.board[0][2]}
-                ---|---|---
-                {self.board[1][0]} | {self.board[1][1]} | {self.board[1][2]}
-                ---|---|---
-                {self.board[2][0]} | {self.board[2][1]} | {self.board[2][2]}
+                {self.board[0][0]} | {self.board[0][1]} | {self.board[0][2]} 
+                ---|---|--- 
+                {self.board[1][0]} | {self.board[1][1]} | {self.board[1][2]} 
+                ---|---|--- 
+                {self.board[2][0]} | {self.board[2][1]} | {self.board[2][2]} 
         """)
 
     def mark(self, loc):
@@ -28,35 +28,35 @@ class Board:
                     print("\n Cell is already taken!")
                     return False
             except:
-                print(f"\n[☞] Something Went Wrong...!!, You entered ➔ {loc}\n Try Again!!!")
+                print(f"\n[!] Something Went Wrong...!!, You entered --> {loc}\n Try Again!!!")
                 return False
         else:
-            print("\n[☞] Invalid Co-Ordinates!!, Try Again...")
+            print("\n[!] Invalid Co-Ordinates!!, Try Again...")
             return False
 
     def check_player_x(self):
         """This checks the winning positions for the player with X symbol and if it matches returns True"""
 
         # Checking Rows
-        if self.board[0][0] == "❌" and self.board[0][1] == "❌" and self.board[0][2] == "❌":
+        if self.board[0][0] == "X" and self.board[0][1] == "X" and self.board[0][2] == "X":
             return True
-        elif self.board[1][0] == "❌" and self.board[1][1] == "❌" and self.board[1][2] == "❌":
+        elif self.board[1][0] == "X" and self.board[1][1] == "X" and self.board[1][2] == "X":
             return True
-        elif self.board[2][0] == "❌" and self.board[2][1] == "❌" and self.board[2][2] == "❌":
+        elif self.board[2][0] == "X" and self.board[2][1] == "X" and self.board[2][2] == "X":
             return True
 
         # Checking Columns
-        elif self.board[0][0] == "❌" and self.board[1][0] == "❌" and self.board[2][0] == "❌":
+        elif self.board[0][0] == "X" and self.board[1][0] == "X" and self.board[2][0] == "X":
             return True
-        elif self.board[0][1] == "❌" and self.board[1][1] == "❌" and self.board[2][1] == "❌":
+        elif self.board[0][1] == "X" and self.board[1][1] == "X" and self.board[2][1] == "X":
             return True
-        elif self.board[0][2] == "❌" and self.board[1][2] == "❌" and self.board[2][2] == "❌":
+        elif self.board[0][2] == "X" and self.board[1][2] == "X" and self.board[2][2] == "X":
             return True
 
         # Checking Diagonals
-        elif self.board[0][0] == "❌" and self.board[1][1] == "❌" and self.board[2][2] == "❌":
+        elif self.board[0][0] == "X" and self.board[1][1] == "X" and self.board[2][2] == "X":
             return True
-        elif self.board[0][2] == "❌" and self.board[1][1] == "❌" and self.board[2][0] == "❌":
+        elif self.board[0][2] == "X" and self.board[1][1] == "X" and self.board[2][0] == "X":
             return True
         else:
             return False
@@ -65,25 +65,25 @@ class Board:
         """This checks the winning positions of the player with symbol O and if it matches returns True """
 
         # Checking Rows
-        if self.board[0][0] == "⭕" and self.board[0][1] == "⭕" and self.board[0][2] == "⭕":
+        if self.board[0][0] == "O" and self.board[0][1] == "O" and self.board[0][2] == "O":
             return True
-        elif self.board[1][0] == "⭕" and self.board[1][1] == "⭕" and self.board[1][2] == "⭕":
+        elif self.board[1][0] == "O" and self.board[1][1] == "O" and self.board[1][2] == "O":
             return True
-        elif self.board[2][0] == "⭕" and self.board[2][1] == "⭕" and self.board[2][2] == "⭕":
+        elif self.board[2][0] == "O" and self.board[2][1] == "O" and self.board[2][2] == "O":
             return True
 
         # Checking Columns
-        elif self.board[0][0] == "⭕" and self.board[1][0] == "⭕" and self.board[2][0] == "⭕":
+        elif self.board[0][0] == "O" and self.board[1][0] == "O" and self.board[2][0] == "O":
             return True
-        elif self.board[0][1] == "⭕" and self.board[1][1] == "⭕" and self.board[2][1] == "⭕":
+        elif self.board[0][1] == "O" and self.board[1][1] == "O" and self.board[2][1] == "O":
             return True
-        elif self.board[0][2] == "⭕" and self.board[1][2] == "⭕" and self.board[2][2] == "⭕":
+        elif self.board[0][2] == "O" and self.board[1][2] == "O" and self.board[2][2] == "O":
             return True
 
         # Checking Diagonals
-        elif self.board[0][0] == "⭕" and self.board[1][1] == "⭕" and self.board[2][2] == "⭕":
+        elif self.board[0][0] == "O" and self.board[1][1] == "O" and self.board[2][2] == "O":
             return True
-        elif self.board[0][2] == "⭕" and self.board[1][1] == "⭕" and self.board[2][0] == "⭕":
+        elif self.board[0][2] == "O" and self.board[1][1] == "O" and self.board[2][0] == "O":
             return True
         else:
             return False
@@ -100,17 +100,17 @@ class Board:
 
     def switch_turn(self):
         """This will switch the symbol for the player."""
-        if self.turn == "❌":
-            self.turn = "⭕"
+        if self.turn == "X":
+            self.turn = "O"
         else:
-            self.turn = "❌"
+            self.turn = "X"
 
     def check_winner(self):
         """This will check the winner of the game."""
         if self.check_player_x():
-            return True, "❌"
+            return True, "X"
         elif self.check_player_o():
-            return True, "⭕"
+            return True, "O"
         elif self.check_draw():
             return True, "DRAW"
         else:
