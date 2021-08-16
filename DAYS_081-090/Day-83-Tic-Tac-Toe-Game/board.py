@@ -1,16 +1,16 @@
 class Board:
-    def __init__(self):
+    def __init__(self, turn):
         self.board = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
-        self.turn = "X"
+        self.turn = turn
 
     def draw_board(self):
         print(f"{self.turn}'s Turn")
         print(f"""
-                {self.board[0][0]} | {self.board[0][1]} | {self.board[0][2]} 
-                ---|---|--- 
-                {self.board[1][0]} | {self.board[1][1]} | {self.board[1][2]} 
-                ---|---|--- 
-                {self.board[2][0]} | {self.board[2][1]} | {self.board[2][2]} 
+                {self.board[0][0]} | {self.board[0][1]} | {self.board[0][2]}
+                --|---|-- 
+                {self.board[1][0]} | {self.board[1][1]} | {self.board[1][2]}
+                --|---|-- 
+                {self.board[2][0]} | {self.board[2][1]} | {self.board[2][2]}
         """)
 
     def mark(self, loc):

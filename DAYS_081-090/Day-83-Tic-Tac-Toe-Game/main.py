@@ -65,8 +65,8 @@ def rules():
     clear()
 
 
-def main():
-    board = Board()
+def main(turn):
+    board = Board(turn)
 
     while True:
         board.draw_board()
@@ -94,6 +94,21 @@ def main():
             clear()
 
 
+def symbol_selection():
+    while True:
+        symbol_choice = input("\n\n Please select any option of the symbol: \n (a) 'X' \n (b) 'O' ")
+        if symbol_choice == "a":
+            symbol_of_player = "X"
+            print("You have selected 'X' symbol for the game.\n Your opponent will have 'O' symbol.")
+            return symbol_of_player
+        elif symbol_choice == "b":
+            symbol_of_player = "O"
+            print("You have selected 'O' symbol for the game.\n Your opponent will have 'X' symbol.")
+            return symbol_of_player
+        else:
+            print("Invalid Selection!! Select any one 'a' or 'b'")
+
+
 if __name__ == "__main__":
     print(logo1)
     print(logo2)
@@ -106,4 +121,9 @@ if __name__ == "__main__":
     print("\n\n[*] PRESS ENTER TO CONTINUE..............")
     input()
     clear()
-    main()
+
+    symbol = symbol_selection()
+    time.sleep(2)
+    clear()
+
+    main(symbol)
