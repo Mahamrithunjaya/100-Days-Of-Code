@@ -1,9 +1,7 @@
 from art import logo1, logo2
 from board import Board
-import random
 import time
 import os
-
 
 GAME_POSITIONS = ["11", "12", "13", "21", "22", "23", "31", "32", "33"]
 
@@ -81,7 +79,7 @@ def main(turn):
         board.draw_board()
 
         position = input(f" Enter the co-ordinates to plot {board.turn}: ")
-        placed = board.mark(position)
+        placed = board.player_move(position)
 
         game_over, winner = board.check_winner()
 
@@ -111,7 +109,7 @@ def auto_player(turn):
         board.draw_board()
 
         position = input(f" Enter the co-ordinates to plot {board.turn}: ")
-        placed = board.mark(position)
+        placed = board.player_move(position)
 
         game_over, winner = board.check_winner()
 
@@ -119,11 +117,19 @@ def auto_player(turn):
             if not game_over:
                 clear()
                 GAME_POSITIONS.remove(position)
-                pos = random.choice(GAME_POSITIONS)
                 board.switch_turn()
-                board.computer_player(pos)
+                auto_over, won = board.computer_player(GAME_POSITIONS)
+                if auto_over:
+                    board.draw_board()
+                    print("\n   GAME OVER \n\n")
+                    if won != "DRAW":
+                        print(f" Player '{won}' WON THE GAME!!")
+                        time.sleep(5)
+                    else:
+                        print(" IT'S A DRAW!!")
+                    break
+                board.switch_turn()
 
-                board.switch_turn()
             else:
                 clear()
                 board.draw_board()
@@ -174,14 +180,14 @@ if __name__ == "__main__":
     print(logo1)
     print(logo2)
 
-    # print("\n[*] PRESS ENTER TO VIEW THE RULES TO PLAY..............")
-    # input()
-    # clear()
-    # rules()
-    #
-    # print("\n\n[*] PRESS ENTER TO CONTINUE..............")
-    # input()
-    # clear()
+    print("\n[*] PRESS ENTER TO VIEW THE RULES TO PLAY..............")
+    input()
+    clear()
+    rules()
+
+    print("\n\n[*] PRESS ENTER TO CONTINUE..............")
+    input()
+    clear()
 
     symbol = symbol_selection()
     time.sleep(2)

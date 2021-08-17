@@ -1,3 +1,6 @@
+import random
+
+
 class Board:
     def __init__(self, turn):
         self.board = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
@@ -13,7 +16,7 @@ class Board:
                 {self.board[2][0]} | {self.board[2][1]} | {self.board[2][2]}
         """)
 
-    def mark(self, loc):
+    def player_move(self, loc):
         """This will plot the location in the board according to the user's input"""
         if len(loc) == 2:
             try:
@@ -98,14 +101,6 @@ class Board:
                     draw = False
         return draw
 
-    def computer_player(self, pos):
-        row = int(pos[0]) - 1
-        column = int(pos[1]) - 1
-        cell = self.board[row][column]
-
-        if cell == " ":
-            self.board[row][column] = self.turn
-
     def switch_turn(self):
         """This will switch the symbol for the player."""
         if self.turn == "X":
@@ -123,3 +118,15 @@ class Board:
             return True, "DRAW"
         else:
             return False, None
+
+    def computer_player(self, positions):
+
+        pos = random.choice(positions)
+        row = int(pos[0]) - 1
+        column = int(pos[1]) - 1
+        cell = self.board[row][column]
+
+        if cell == " ":
+            self.board[row][column] = self.turn
+
+        return self.check_winner()
