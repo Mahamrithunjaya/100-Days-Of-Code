@@ -33,7 +33,7 @@ ___
 
 ## days021-030
 ### `day021`: [Snake Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2021%20-%20Snake_Game)
-### `day022`: [Pong](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2022%20-%20Project%20_The_Pong_Game)
+### `day022`: [Pong Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2022%20-%20Project%20_The_Pong_Game)
 ### `day023`: [Crossing Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2023%20-%20Turtle-Crossing-Project)
 ### `day024`: [Mail Merge](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_021-030/Day%20-%2024%20-%20Mail-Merge-Project-Start)
 ### `day025`: [Game Project]
@@ -123,7 +123,7 @@ ___
 ### `day081`: [Morse Code Converter](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_081-090/Day-81-Python-Scripting)
 ### `day082`: [💻]()
 #### - [💻]()
-### `day083`: [💻]()
+### `day083`: [Tic-Tac-Toe-Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_081-090/Day-83-Tic-Tac-Toe-Game)
 ### `day084`: [💻]()
 ### `day085`: [💻]()
 ### `day086`: [💻]()
