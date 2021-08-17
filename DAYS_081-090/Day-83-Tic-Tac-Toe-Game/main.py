@@ -14,8 +14,10 @@ def clear():
 
 
 def rules():
-    print("\n This game is based on matrix positions.\n\n So you need to give positions as 'ij'.\n Where 'i' = 'row' "
-          "and 'j' = 'column'")
+    print("\n Rule 1 : Always User1 Makes The First Move")
+    print("\n Rule 2 : This game is based on matrix positions."
+          "\n           So you need to give positions as 'ij'."
+          "\n           Where 'i' = 'row' and 'j' = 'column'")
 
     print("\n\n")
 
@@ -23,9 +25,9 @@ def rules():
     print("         | BOARD  |     | POSITIONS TO BE ENTER | ")
     print("         ----------      -----------------------\n")
     print("         X | O | X          11 | 12 | 13")
-    print("         - - - - -      - - - - - - - - - - -")
+    print("         - - - - -        - - - - - - - - - -")
     print("         X | O | X          21 | 22 | 23 ")
-    print("         - - - - -      - - - - - - - - - - -")
+    print("         - - - - -        - - - - - - - - - -")
     print("         X | O | X          31 | 32 | 33 \n\n")
 
     time.sleep(4)
@@ -78,7 +80,7 @@ def main(turn):
     while True:
         board.draw_board()
 
-        position = input(f" Enter the co-ordinates to plot {board.turn}: ")
+        position = input(f"\n Enter the co-ordinates to plot {board.turn}: ")
         placed = board.player_move(position)
 
         game_over, winner = board.check_winner()
@@ -95,7 +97,7 @@ def main(turn):
                     print(f" Player '{winner}' WON THE GAME!!")
                     time.sleep(5)
                 else:
-                    print(" IT'S A DRAW!!")
+                    print("\n IT'S A DRAW!!")
                 break
         else:
             time.sleep(1)
@@ -118,15 +120,20 @@ def auto_player(turn):
                 clear()
                 GAME_POSITIONS.remove(position)
                 board.switch_turn()
-                auto_over, won = board.computer_player(GAME_POSITIONS)
+                comp_check, comp_pos = board.computer_player(GAME_POSITIONS)
+                auto_over = comp_check[0]
+                won = comp_check[1]
+                # print(auto_over, ",", won)
+                # print(comp_pos)
+                GAME_POSITIONS.remove(comp_pos)
                 if auto_over:
                     board.draw_board()
                     print("\n   GAME OVER \n\n")
                     if won != "DRAW":
-                        print(f" Player '{won}' WON THE GAME!!")
+                        print(f"\n SORRY!!! THIS TIME COMPUTER WON THE GAME!!")
                         time.sleep(5)
                     else:
-                        print(" IT'S A DRAW!!")
+                        print("\n IT'S A DRAW!!")
                     break
                 board.switch_turn()
 
@@ -135,10 +142,10 @@ def auto_player(turn):
                 board.draw_board()
                 print("\n   GAME OVER \n\n")
                 if winner != "DRAW":
-                    print(f" Player '{winner}' WON THE GAME!!")
+                    print(f"\n Player '{winner}' WON THE GAME!!")
                     time.sleep(5)
                 else:
-                    print(" IT'S A DRAW!!")
+                    print("\n IT'S A DRAW!!")
                 break
         else:
             time.sleep(1)
@@ -154,7 +161,7 @@ def player_selection():
         elif player_choice == "b":
             return "b"
         else:
-            print(" Invalid Selection!! Select any one 'a' or 'b'.")
+            print("\n Invalid Selection!! Select any one 'a' or 'b'.")
             time.sleep(1)
             clear()
 
@@ -164,14 +171,14 @@ def symbol_selection():
         symbol_choice = input("\n\n Please select any option of the symbol: \n (a) 'X' \n (b) 'O' \n ")
         if symbol_choice == "a":
             symbol_of_player = "X"
-            print(" You have selected 'X' symbol for the game.\n Your opponent will have 'O' symbol.")
+            print("\n You have selected 'X' symbol for the game.\n Your opponent will have 'O' symbol.")
             return symbol_of_player
         elif symbol_choice == "b":
             symbol_of_player = "O"
-            print(" You have selected 'O' symbol for the game.\n Your opponent will have 'X' symbol.")
+            print("\n You have selected 'O' symbol for the game.\n Your opponent will have 'X' symbol.")
             return symbol_of_player
         else:
-            print(" Invalid Selection!! Select any one 'a' or 'b'")
+            print("\n Invalid Selection!! Select any one 'a' or 'b'")
             time.sleep(1)
             clear()
 
@@ -200,3 +207,23 @@ if __name__ == "__main__":
     else:
         main(symbol)
         time.sleep(1)
+
+    while True:
+        answer = input("Do you want to play again? (Y/N)")
+        if answer.lower() == "y" or answer.lower() == "yes":
+            clear()
+            symbol = symbol_selection()
+            time.sleep(2)
+            clear()
+
+            player = player_selection()
+            clear()
+            if player == "a":
+                auto_player(symbol)
+            else:
+                main(symbol)
+                time.sleep(1)
+        else:
+            print("\n\n  GOODBYE ")
+            time.sleep(1.5)
+            break

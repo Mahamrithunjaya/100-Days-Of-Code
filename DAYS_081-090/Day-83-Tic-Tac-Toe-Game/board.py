@@ -129,4 +129,7 @@ class Board:
         if cell == " ":
             self.board[row][column] = self.turn
 
-        return self.check_winner()
+        # This type of return always gives tuple. So we have to split it accordingly
+        # Here 'self.check_winner' gives a tuple "like this: (True, X)" and pos gives the int value direct.
+        # Finally it gives the return like this: "(True, X) 21"
+        return self.check_winner(), pos
