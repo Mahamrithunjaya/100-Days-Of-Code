@@ -155,7 +155,7 @@ def auto_player(turn):
 def player_selection():
     while True:
         player_choice = input("\n\n Please select any one option from below: \n (a) 'Single Player(vs Computer)' \n ("
-                              "b) 'Multiple-Player \n ")
+                              "b) 'Multiple-Player \n Enter Your Choice: ")
         if player_choice == "a":
             return "a"
         elif player_choice == "b":
@@ -168,7 +168,8 @@ def player_selection():
 
 def symbol_selection():
     while True:
-        symbol_choice = input("\n\n Please select any option of the symbol: \n (a) 'X' \n (b) 'O' \n ")
+        symbol_choice = input("\n\n Please select any option of the symbol: \n (a) 'X' \n (b) 'O'"
+                              " \n Enter your Choice: ")
         if symbol_choice == "a":
             symbol_of_player = "X"
             print("\n You have selected 'X' symbol for the game.\n Your opponent will have 'O' symbol.")
@@ -209,7 +210,7 @@ if __name__ == "__main__":
         time.sleep(1)
 
     while True:
-        answer = input("Do you want to play again? (Y/N)")
+        answer = input("\n Do you want to play again? (Y/N)\n ")
         if answer.lower() == "y" or answer.lower() == "yes":
             clear()
             symbol = symbol_selection()
@@ -224,6 +225,6 @@ if __name__ == "__main__":
                 main(symbol)
                 time.sleep(1)
         else:
-            print("\n\n  GOODBYE ")
+            print("\n\n   GOODBYE ")
             time.sleep(1.5)
             break

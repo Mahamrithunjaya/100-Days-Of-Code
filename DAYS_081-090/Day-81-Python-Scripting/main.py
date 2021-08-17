@@ -1,5 +1,14 @@
+import os
 import winsound
 import time
+
+
+def clear():
+    if os.name == "nt":
+        os.system("cls")
+    else:
+        os.system("clear")
+
 
 MORSE_DICT = {
     'A': '.-',
@@ -102,51 +111,62 @@ def morse_sound(morse):
 
 
 def main():
-    print('''
-    
-        __      _____ _    ___ ___  __  __ ___                                                        
-        \ \    / / __| |  / __/ _ \|  \/  | __|                                                       
-         \ \/\/ /| _|| |_| (_| (_) | |\/| | _|                                                        
-          \_/\_/ |___|____\___\___/|_|  |_|___|                                                       
-          |_   _/ _ \                                                                                 
-            | || (_) |                                                                                
-   __  __  _|_| \___/___ ___    ___ ___  ___  ___   _____ ___    _   _  _ ___ _      _ _____ ___  ___ 
-  |  \/  |/ _ \| _ \/ __| __|  / __/ _ \|   \| __| |_   _| _ \  /_\ | \| / __| |    /_\_   _/ _ \| _ \ 
-  | |\/| | (_) |   /\__ \ _|  | (_| (_) | |) | _|    | | |   / / _ \| .` \__ \ |__ / _ \| || (_) |   /
-  |_|  |_|\___/|_|_\|___/___|  \___\___/|___/|___|   |_| |_|_\/_/ \_\_|\_|___/____/_/ \_\_| \___/|_|_\ 
-                                                                                                                                                                                                                                                                                                                                                    
-    ''')
-    print("\nNOTE:- To give space between two words(in case of MORSE CODE) here '/' is used. ")
-    choice = input('\n\nPlease Select any one Option: \n(a) TEXT --> MORSE CODE\n(b) MORSE CODE --> TEXT\n ---> ')
-    if choice == 'a':
-        text = input('Enter the Text you would like to be converted into Morse Code: \n')
-        output = text_to_morse(text)
-        print(f"\nHere is the MORSE CODE version or your message:\n"
-              f"[Turn up the volume to hear the sound]\n\n"
-              f"{output}")
-        time.sleep(2.5)
-        morse_sound(output)
-    elif choice == 'b':
-        morse_code = input("Enter the Morse Code that you would like to be converted into Text: \n")
-        morse_cd = morse_code
-        output = morse_to_text(morse_code)
-        print(f"\nHere is the TEXT version or your message:\n"
-              f"[Turn up the volume to hear the MORSE CODE SOUND]\n\n"
-              f"{output}")
-        time.sleep(2.5)
-        morse_sound(morse_cd)
-    else:
-        print("\nInvalid Choice Selected."
-              "\nEnter only 'a' or 'b' ")
+    while True:
+        print('''
+        
+            __      _____ _    ___ ___  __  __ ___                                                        
+            \ \    / / __| |  / __/ _ \|  \/  | __|                                                       
+             \ \/\/ /| _|| |_| (_| (_) | |\/| | _|                                                        
+              \_/\_/ |___|____\___\___/|_|  |_|___|                                                       
+              |_   _/ _ \                                                                                 
+                | || (_) |                                                                                
+       __  __  _|_| \___/___ ___    ___ ___  ___  ___   _____ ___    _   _  _ ___ _      _ _____ ___  ___ 
+      |  \/  |/ _ \| _ \/ __| __|  / __/ _ \|   \| __| |_   _| _ \  /_\ | \| / __| |    /_\_   _/ _ \| _ \ 
+      | |\/| | (_) |   /\__ \ _|  | (_| (_) | |) | _|    | | |   / / _ \| .` \__ \ |__ / _ \| || (_) |   /
+      |_|  |_|\___/|_|_\|___/___|  \___\___/|___/|___|   |_| |_|_\/_/ \_\_|\_|___/____/_/ \_\_| \___/|_|_\ 
+                                                                                                                                                                                                                                                                                                                                                        
+        ''')
+        time.sleep(0.5)
+        print("\nNOTE:- To give space between two words(in case of MORSE CODE) here '/' is used. ")
+        time.sleep(0.5)
+        choice = input('\n\nPlease Select any one Option: \n(a) TEXT --> MORSE CODE\n(b) MORSE CODE --> TEXT\n ---> ')
+        if choice == 'a':
+            text = input('Enter the Text you would like to be converted into Morse Code: \n')
+            output = text_to_morse(text)
+            print(f"\nHere is the MORSE CODE version or your message:\n"
+                  f"[Turn up the volume to hear the sound]\n\n"
+                  f"{output}")
+            time.sleep(2.5)
+            return morse_sound(output)
+        elif choice == 'b':
+            morse_code = input("Enter the Morse Code that you would like to be converted into Text: \n")
+            morse_cd = morse_code
+            output = morse_to_text(morse_code)
+            print(f"\nHere is the TEXT version or your message:\n"
+                  f"[Turn up the volume to hear the MORSE CODE SOUND]\n\n"
+                  f"{output}")
+            time.sleep(2.5)
+            return morse_sound(morse_cd)
+        else:
+            print("\nInvalid Choice Selected."
+                  "\nEnter only 'a' or 'b' ")
 
 
-while True:
+if __name__ == "__main__":
     main()
-    play_again = input("\nDo you like to Encrypt or Decrypt Again? Yes/No \n").lower()
-    if play_again == "yes":
-        main()
-    elif play_again == "no":
-        exit()
-    else:
-        print("\n Invalid Choice. Try Again!!!")
-        play_again = input("\nDo you like to Encrypt or Decrypt Again? Yes/No \n").lower()
+    while True:
+
+        play_again = input("\nDo you like to Encrypt or Decrypt Again? (Yes/No) \n").lower()
+        if play_again == "yes":
+            clear()
+            main()
+        elif play_again == "no":
+            clear()
+            print("\n\n GOODBYE MAJOR......")
+            time.sleep(1.8)
+            exit()
+        else:
+            print("\n Invalid Choice. Try Again!!!")
+            time.sleep(1)
+            clear()
+            play_again = input("\nDo you like to Encrypt or Decrypt Again? (Yes/No) \n").lower()
