@@ -220,8 +220,10 @@ if __name__ == "__main__":
             player = player_selection()
             clear()
             if player == "a":
+                GAME_POSITIONS = ["11", "12", "13", "21", "22", "23", "31", "32", "33"]
                 auto_player(symbol)
             else:
+                GAME_POSITIONS = ["11", "12", "13", "21", "22", "23", "31", "32", "33"]
                 main(symbol)
                 time.sleep(1)
         else:
