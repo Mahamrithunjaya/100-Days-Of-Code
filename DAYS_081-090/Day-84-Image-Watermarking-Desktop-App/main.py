@@ -50,7 +50,7 @@ def show_image(filename):
             r_img = resize(img)
             panel.configure(image=r_img)
             panel.image = r_img
-            image_size.config(text=f"Image size {height}x{width} (height/width)", bg="#000000", fg="#fafafa",
+            image_size.config(text=f"Image size {height}x{width} (height/width)", bg="#9FE2BF", fg="#000000",
                               font=("Consolas", 10))
             height_main = height / 2
             width_main = width / 2
@@ -195,7 +195,7 @@ def rotate_right():
 window = Tk()
 window.title("Image Watermarking App")
 window.minsize(height=100, width=500)
-window.config(padx=20, pady=20, bg="#000000")
+window.config(padx=20, pady=20, bg="#9FE2BF")
 
 # *********** Blank Photo *********** #
 blank_photo = Image.new(mode="RGBA", size=(700, 600), color="#242424")
@@ -205,33 +205,33 @@ panel.image = image1  # keep a reference
 panel.grid(column=0, rowspan=15)
 
 # *********** Image Size Label *********** #
-image_size = Label(text=f"Image size {height_main}/{width_main} (height/width)", bg="#000000", fg="#fafafa",
+image_size = Label(text=f"Image size {height_main}/{width_main} (height/width)", bg="#9FE2BF", fg="#000000",
                    font=("Consolas", 6))
 image_size.grid(column=0, row=16)
 
 # *********** Watermark Text *********** #
-water_mark = Label(text="Watermark:", width=15, bg="#000000", fg="#fafafa", font=("Consolas", 12, "bold"))
+water_mark = Label(text="Watermark:", width=15, bg="#9FE2BF", fg="#000000", font=("Consolas", 12, "bold"))
 water_mark.grid(column=3, row=2, sticky=W)
-watermark_entry = Entry(width=50, bg="#242424", fg="#fafafa")
+watermark_entry = Entry(width=50, bg="#F0FFFF", fg="#000000")
 watermark_entry.grid(column=4, row=2, columnspan=4)
 watermark_entry.get()
 
 # *********** Color for WaterMark *********** #
-color_label = Label(text="Color:", bg="#000000", fg="#fafafa", font=("Consolas", 12, "bold"))
+color_label = Label(text="Color:", bg="#9FE2BF", fg="#000000", font=("Consolas", 12, "bold"))
 color_label.grid(column=4, row=9, sticky=W)
-color_button = Button(text="      ", bg="#fafafa", fg="#fafafa", command=color)
+color_button = Button(text="      ", bg="#fafafa", fg="#000000", command=color)
 color_button.grid(column=5, row=9, sticky=E)
 
 # *********** Watermark Opacity *********** #
-opacity_label = Label(text="Opacity:", bg="#000000", fg="#fafafa", font=("Consolas", 12, "bold"))
+opacity_label = Label(text="Opacity:", bg="#9FE2BF", fg="#000000", font=("Consolas", 12, "bold"))
 opacity_label.grid(column=4, row=10, sticky=W)
-opacity = Scale(window, from_=0, to=255, orient="horizontal", bg="#000000", fg="#fafafa", highlightthickness=0,
+opacity = Scale(window, from_=0, to=255, orient="horizontal", bg="#9FE2BF", fg="#000000", highlightthickness=0,
                 command=opacity)
 opacity.set(255)
 opacity.grid(column=5, row=10, ipadx=20, sticky=E)
 
 # *********** Watermark Font Size *********** #
-font_label = Label(text="Font size:", bg="#000000", fg="#fafafa", font=("Consolas", 12, "bold"))
+font_label = Label(text="Font size:", bg="#9FE2BF", fg="#000000", font=("Consolas", 12, "bold"))
 font_label.grid(column=4, row=11, sticky=W)
 default_font_size = StringVar(window)
 default_font_size.set("60")
@@ -248,41 +248,41 @@ for font in formatted_font_list:
         final_font_list.append(font.replace(".ttf", "").replace(".TTF", "").replace(".ttc", ""))
 font = StringVar(window)
 font.set("consolaz")
-font_type_label = Label(text="Font:", bg="#000000", fg="#fafafa", font=("Consolas", 12, "bold"))
+font_type_label = Label(text="Font:", bg="#9FE2BF", fg="#000000", font=("Consolas", 12, "bold"))
 font_type_label.grid(column=4, row=12, sticky=W)
 font_type = OptionMenu(window, font, *final_font_list, command=font_change)
 font_type.grid(column=5, row=12, sticky=E)
 
 # *********** Show Watermark Button *********** #
-show_watermark = Button(text="Show", bg="#000000", fg="#fafafa", command=watermark)
+show_watermark = Button(text="Show", bg="#9FE2BF", fg="#000000", command=watermark)
 show_watermark.grid(column=8, row=2)
 
 # *********** Save Watermarked Image Button *********** #
-save_image = Button(text="Save", bg="#000000", fg="#fafafa", font=("Consolas", 12, "bold"),
+save_image = Button(text="Save", bg="#9FE2BF", fg="#000000", font=("Consolas", 12, "bold"),
                     command=lambda: save(img_main))
 save_image.grid(column=7, row=16)
 
 # *********** Watermark Location Settings *********** #
-up_button = Button(text="⮝", font=("Consolas", 20), bg="#000000", fg="#fafafa", command=up)
+up_button = Button(text="⮝", font=("Consolas", 20), bg="#9FE2BF", fg="#000000", command=up)
 up_button.grid(column=4, row=3, sticky=S)
 
-down_button = Button(text="⮟", font=("Consolas", 20), bg="#000000", fg="#fafafa", command=down)
+down_button = Button(text="⮟", font=("Consolas", 20), bg="#9FE2BF", fg="#000000", command=down)
 down_button.grid(column=4, row=5, sticky=N)
 
-left_button = Button(text="⮜", font=("Consolas", 20), bg="#000000", fg="#fafafa", command=left)
+left_button = Button(text="⮜", font=("Consolas", 20), bg="#9FE2BF", fg="#000000", command=left)
 left_button.grid(column=3, row=4, sticky=E, pady=0)
 
-right_button = Button(text="⮞", font=("Consolas", 20), bg="#000000", fg="#fafafa", command=right)
+right_button = Button(text="⮞", font=("Consolas", 20), bg="#9FE2BF", fg="#000000", command=right)
 right_button.grid(column=5, row=4, sticky=W)
 
-rotate_left_button = Button(text="⟲", font=("Consolas", 20), bg="#000000", fg="#fafafa", command=rotate_left)
+rotate_left_button = Button(text="⟲", font=("Consolas", 20), bg="#9FE2BF", fg="#000000", command=rotate_left)
 rotate_left_button.grid(column=6, row=4, sticky=W)
 
-rotate_right_button = Button(text="⟳", font=("Consolas", 20), bg="#000000", fg="#fafafa", command=rotate_right)
+rotate_right_button = Button(text="⟳", font=("Consolas", 20), bg="#9FE2BF", fg="#000000", command=rotate_right)
 rotate_right_button.grid(column=7, row=4, sticky=W)
 
 # *********** Select Image File *********** #
-select = Button(text="Select file", font=("Consolas", 12), bg="#000000", fg="#fafafa", command=select_img_file)
+select = Button(text="Select file", font=("Consolas", 12), bg="#9FE2BF", fg="#000000", command=select_img_file)
 select.grid(column=0, row=17)
 
 # *********** Application Loop *********** #
