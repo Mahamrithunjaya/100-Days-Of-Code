@@ -124,7 +124,7 @@ ___
 ### `day082`: [💻]()
 #### - [💻]()
 ### `day083`: [Tic-Tac-Toe-Game](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_081-090/Day-83-Tic-Tac-Toe-Game)
-### `day084`: [💻]()
+### `day084`: [Day-84-Image-Watermarking-Desktop-App](https://github.com/Mahamrithunjaya/100-Days-Of-Code/blob/master/DAYS_081-090/Day-84-Image-Watermarking-Desktop-App)
 ### `day085`: [💻]()
 ### `day086`: [💻]()
 ### `day087`: [💻]()
